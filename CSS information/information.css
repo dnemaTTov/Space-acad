@@ -1,0 +1,43 @@
+/* body {
+  font-family: "montserrat";
+  background-image: url(../images/39607.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.navbar {
+  height: 10vh;
+  margin-top: 1%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.position {
+  margin-top: 3rem !important;
+  z-index: 11;
+}
+@font-face {
+  font-family: text;
+  src: url(../Fonts/Montserrat-VariableFont_wght.ttf);
+}
+.leading-relaxed {
+  color: orange;
+  font-family: text;
+  font-size: larger;
+}
+.imglogo {
+  height: auto !important;
+  right: 20% !important;
+} */
+/* логотип на шапке */
+/* @media screen and (max-width: 1399px) {
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  .imglogo {
+    margin-top: 20% !important;
+    margin-left: 20%;
+    width: 60% !important;
+    height: 60% !important;
+  }
+} */

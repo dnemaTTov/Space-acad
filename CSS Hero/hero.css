@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "montserrat";
+  src: url(../Fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+body {
+  font-family: "montserrat";
+  background-image: url(../images/img3.akspic.ru-zemlya-noch-prostranstvo-vselennaya-kosmos-3840x2160.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+.navbar {
+  height: 10vh;
+  margin-top: 1%;
+  display: flex;
+  flex-wrap: nowrap;
+}

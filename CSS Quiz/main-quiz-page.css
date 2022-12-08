@@ -1,0 +1,118 @@
+/*******************************************************/
+
+.Easy {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 30px;
+  border: 1px solid #69e83f;
+  transition: 1s;
+  color: white;
+}
+
+.Easy:hover {
+  background-color: #69e83f;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 30px;
+  border: 1px solid #69e83f;
+  transition: 1s;
+  color: #222 !important;
+}
+
+/*******************************************************/
+
+.Normal {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 30px;
+  border: 1px solid #f2ef41;
+  transition: 1s;
+  color: white;
+}
+
+.Normal:hover {
+  background-color: #f2ef41;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 30px;
+  border: 1px solid #f2ef41;
+  transition: 1s;
+  color: #222 !important;
+}
+
+/*******************************************************/
+
+.Middle {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 30px;
+  border: 1px solid #ca9b36;
+  transition: 1s;
+  color: white;
+}
+
+.Middle:hover {
+  background-color: #ca9b36;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 30px;
+  border: 1px solid #ca9b36;
+  transition: 1s;
+  color: #222 !important;
+}
+
+/*******************************************************/
+
+.Hard {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 30px;
+  border: 1px solid #e98221;
+  transition: 1s;
+  color: white;
+}
+
+.Hard:hover {
+  background-color: #e98221;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 30px;
+  border: 1px solid #e98221;
+  transition: 1s;
+  color: #222 !important;
+}
+
+/*******************************************************/
+
+.Pro {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 30px;
+  border: 1px solid #eb5338;
+  transition: 1s;
+  color: white;
+}
+
+.Pro:hover {
+  background-color: #eb5338;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 30px;
+  border: 1px solid #eb5338;
+  transition: 1s;
+  color: #222 !important;
+}
+
+body {
+  background: url(../images/39607.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mt {
+  margin-top: 7rem;
+}
+@media screen and (max-width: 1200px) {
+  .mt {
+    margin-top: 1rem;
+  }
+}

@@ -1,0 +1,9 @@
+.nav-btn {
+    background: rgb(255, 81, 0);
+    border-radius: 20px 20px 0px 0px;
+}
+
+body {
+    background: linear-gradient(90deg, rgb(231, 154, 215), rgb(141, 74, 204));
+    color: lightgray;
+}

@@ -1,0 +1,11 @@
+body {
+  background-color: blue;
+  background-image: url(../images/back1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 300vh;
+}
+.position {
+  margin-top: 2rem;
+}

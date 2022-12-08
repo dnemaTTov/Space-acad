@@ -1,0 +1,465 @@
+@font-face {
+  font-family: "montserrat";
+  src: url(../Fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+body {
+  font-family: "montserrat";
+
+  background-image: url(../images/39607.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.carousel {
+  margin-top: 30rem;
+}
+
+.orbit {
+  padding-top: 500px;
+}
+.position {
+  margin-top: 2rem !important;
+}
+.system-div {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sun {
+  border-radius: 100%;
+  z-index: 999;
+}
+
+.sun-w {
+  width: 200px;
+}
+
+.main-merc {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  z-index: 10;
+  position: absolute;
+  border: 1px solid white;
+}
+
+.merc {
+  position: absolute;
+  right: 50%;
+  top: 0%;
+  offset-path: path(
+    "M50,35.12A145,145,0,1,1,0,145,145.33,145.33,0,0,1,50,35.12"
+  );
+  animation: move 10s linear infinite;
+  margin-right: 95px;
+}
+
+.main-ven {
+  width: 450px;
+  height: 450px;
+  border-radius: 100%;
+  z-index: 9;
+  position: absolute;
+  border: 1px solid white;
+}
+
+.ven {
+  position: absolute;
+  right: 50%;
+  top: 0%;
+  offset-path: path(
+    "M50,80.12A225,225,0,1,1,0,225,225.30,225.30,0,0,1,50,80.12"
+  );
+  animation: move 15s linear infinite;
+  margin-right: 170px;
+}
+
+.main-merc :hover {
+  cursor: pointer;
+}
+
+.main-earth {
+  width: 600px;
+  height: 600px;
+  border-radius: 100%;
+  z-index: 8;
+  position: absolute;
+  border: 1px solid white;
+}
+
+.earth {
+  position: absolute;
+  right: 50%;
+  top: 0%;
+  offset-path: path(
+    "M50,130.12A300,300,0,1,1,0,300,300.30,300.30,0,0,1,50,130.12"
+  );
+  animation: move 19s linear infinite;
+  margin-right: 240px;
+}
+
+.main-mars {
+  width: 750px;
+  height: 750px;
+  border-radius: 100%;
+  z-index: 7;
+  position: absolute;
+  border: 1px solid white;
+}
+
+.mars {
+  position: absolute;
+  right: 50%;
+  top: 0%;
+  offset-path: path(
+    "M50,190.12A375,375,0,1,1,0,375,375.30,375.30,0,0,1,50,190.12"
+  );
+  animation: move 23s linear infinite;
+  margin-right: 320px;
+}
+
+.main-up {
+  width: 900px;
+  height: 900px;
+  border-radius: 100%;
+  z-index: 6;
+  position: absolute;
+  border: 1px solid white;
+}
+
+.up {
+  position: absolute;
+  right: 50%;
+  top: 0%;
+  offset-path: path(
+    "M50,245.12A450,450,0,1,1,0,450,450.30,450.30,0,0,1,50,245.12"
+  );
+  animation: move 28s linear infinite;
+  margin-right: 355px;
+}
+
+.main-sat {
+  width: 1050px;
+  height: 1050px;
+  border-radius: 100%;
+  z-index: 5;
+  position: absolute;
+  border: 1px solid white;
+}
+
+.sat {
+  position: absolute;
+  right: 50%;
+  top: 0%;
+  offset-path: path(
+    "M50,300.12A530,530,0,1,1,0,530,530.30,530.30,0,0,1,50,300.12"
+  );
+  animation: move 30s linear infinite;
+  margin-right: 430px;
+}
+
+.main-ur {
+  width: 1200px;
+  height: 1200px;
+  border-radius: 100%;
+  z-index: 4;
+  position: absolute;
+  border: 1px solid white;
+}
+
+.ur {
+  position: absolute;
+  right: 50%;
+  top: 0%;
+  offset-path: path(
+    "M50,355.12A600,600,0,1,1,0,600,600.30,600.30,0,0,1,50,355.12"
+  );
+  animation: move 34s linear infinite;
+  margin-right: 535px;
+}
+
+.main-nep {
+  width: 1350px;
+  height: 1350px;
+  border-radius: 100%;
+  z-index: 3;
+  position: absolute;
+  border: 1px solid white;
+}
+
+.nep {
+  position: absolute;
+  right: 50%;
+  top: 0%;
+  offset-path: path(
+    "M50,415.12A675,675,0,1,1,0,675,675.30,675.30,0,0,1,50,415.12"
+  );
+  animation: move 39s linear infinite;
+  margin-right: 615px;
+}
+
+@keyframes move {
+  1% {
+    offset-distance: 1%;
+  }
+
+  100% {
+    offset-distance: 100%;
+  }
+}
+
+.h-100_ {
+  height: 100vh;
+}
+
+.w-100_ {
+  height: 100vw;
+}
+
+.grow {
+  transition: 0.8s;
+}
+
+.grow:hover {
+  transform: scale(1.15);
+  transition: 0.7s;
+  margin-bottom: 10px;
+  border-radius: 100%;
+  z-index: 9999;
+}
+
+.grow-planet {
+  transition: 0.8s;
+}
+
+.grow-planet:hover {
+  transform: scale(1.5);
+  transition: 1s;
+  margin-bottom: 10px;
+  border-radius: 100%;
+  z-index: 9999;
+}
+
+.c-p {
+  cursor: pointer;
+}
+
+.sun-move {
+  animation: sun-move 18s infinite linear;
+  transition: 0.8s;
+}
+
+.sun-move :hover {
+  animation: sun-move 18s infinite linear;
+  transition: 1s;
+}
+
+@keyframes sun-move {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.sm-shadow {
+  box-shadow: 0px 0px 30px -15px rgb(255, 255, 255);
+  border-radius: 100%;
+}
+
+.page-btn-sun {
+  transition: 0.6s;
+  cursor: pointer;
+  background-color: lightgreen;
+  color: #222;
+  box-shadow: 0px 6px 20px -10px black;
+}
+
+.page-btn-sun :hover {
+  transition: 0.6s;
+  background: linear-gradient(90deg, rgb(255, 145, 0), rgb(255, 81, 0));
+  color: #222;
+  box-shadow: 0px 14px 20px -9px black;
+}
+
+.page-btn-merc {
+  transition: 0.6s;
+  cursor: pointer;
+  background-color: lightgreen;
+  color: #222;
+  box-shadow: 0px 6px 20px -10px black;
+}
+
+.page-btn-merc :hover {
+  transition: 0.6s;
+  background: linear-gradient(90deg, rgb(245, 171, 73), rgb(190, 118, 24));
+  color: #222;
+  box-shadow: 0px 14px 20px -9px black;
+}
+
+.page-btn-ven {
+  transition: 0.6s;
+  cursor: pointer;
+  background-color: lightgreen;
+  color: #222;
+  box-shadow: 0px 6px 20px -10px black;
+}
+
+.page-btn-ven :hover {
+  transition: 0.6s;
+  background: linear-gradient(
+    90deg,
+    rgb(245, 171, 73),
+    rgb(207, 120, 5),
+    rgb(226, 72, 0)
+  );
+  color: #222;
+  box-shadow: 0px 14px 20px -9px black;
+}
+
+.page-btn-earth {
+  transition: 0.6s;
+  cursor: pointer;
+  background-color: lightgreen;
+  color: #222;
+  box-shadow: 0px 6px 20px -10px black;
+}
+
+.page-btn-earth :hover {
+  transition: 0.6s;
+  background: linear-gradient(90deg, rgb(73, 168, 245), rgb(78, 207, 89));
+  color: #222;
+  box-shadow: 0px 14px 20px -9px black;
+}
+
+.page-btn-mars {
+  transition: 0.6s;
+  cursor: pointer;
+  background-color: lightgreen;
+  color: #222;
+  box-shadow: 0px 6px 20px -10px black;
+}
+
+.page-btn-mars :hover {
+  transition: 0.6s;
+  background: linear-gradient(90deg, rgb(216, 109, 59), rgb(238, 86, 26));
+  color: #222;
+  box-shadow: 0px 14px 20px -9px black;
+}
+
+.page-btn-up {
+  transition: 0.6s;
+  cursor: pointer;
+  background-color: lightgreen;
+  color: #222;
+  box-shadow: 0px 6px 20px -10px black;
+}
+
+.page-btn-up :hover {
+  transition: 0.6s;
+  background: linear-gradient(
+    90deg,
+    rgb(213, 206, 74),
+    rgb(230, 114, 60),
+    rgb(226, 80, 36)
+  );
+  color: #222;
+  box-shadow: 0px 14px 20px -9px black;
+}
+
+.page-btn-sat {
+  transition: 0.6s;
+  cursor: pointer;
+  background-color: lightgreen;
+  color: #222;
+  box-shadow: 0px 6px 20px -10px black;
+}
+
+.page-btn-sat :hover {
+  transition: 0.6s;
+  background: linear-gradient(90deg, rgb(231, 154, 215), rgb(141, 74, 204));
+  color: #222;
+  box-shadow: 0px 14px 20px -9px black;
+}
+
+.page-btn-ur {
+  transition: 0.6s;
+  cursor: pointer;
+  background-color: lightgreen;
+  color: #222;
+  box-shadow: 0px 6px 20px -10px black;
+}
+
+.page-btn-ur :hover {
+  transition: 0.6s;
+  background: linear-gradient(90deg, rgb(73, 176, 245), rgb(0, 117, 226));
+  color: #222;
+  box-shadow: 0px 14px 20px -9px black;
+}
+
+.page-btn-nep {
+  transition: 0.6s;
+  cursor: pointer;
+  background-color: lightgreen;
+  color: #222;
+  box-shadow: 0px 6px 20px -10px black;
+}
+
+.page-btn-nep :hover {
+  transition: 0.6s;
+  background: linear-gradient(90deg, rgb(67, 154, 212), rgb(7, 77, 143));
+  color: #222;
+  box-shadow: 0px 14px 20px -9px black;
+}
+
+.ball {
+  transition: 1s;
+}
+
+.ball:hover {
+  width: 55%;
+  transition: 1;
+}
+
+@media screen and (max-width: 1399px) {
+  #ball {
+    display: none;
+  }
+
+  body {
+    padding-top: 60px;
+  }
+}
+
+.footer {
+  margin-top: 400px;
+}
+
+@media screen and (max-width: 1399px) {
+  .footer {
+    margin-top: 60px;
+  }
+}
+
+.bg-black_ {
+  background: linear-gradient(
+    360deg,
+    rgb(21, 6, 39),
+    rgb(36, 13, 49),
+    rgb(68, 14, 90),
+    rgb(98, 32, 126)
+  );
+  box-shadow: -10px 0px 50px -10px rgb(88, 75, 146);
+}
+
+.b {
+  position: relative;
+  bottom: -10%;
+}
+
+.bs {
+  position: relative;
+  bottom: -5%;
+}

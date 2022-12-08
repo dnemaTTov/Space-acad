@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../Bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="../CSS Quiz/questions.css" id="change-theme" />
+
+    <title>Middle</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="position position-fixed container-fluid z-a">
+        <nav
+          class="navbar navbar-expand-lg text-white rounded-2 d-flex justify-content-center"
+        >
+          <div class="container d-flex justify-content-center">
+            <div class="">
+              <a class="navbar-brand text-warning fw-bold" href="../index.html"
+                >Main-page</a
+              >
+            </div>
+
+            <div
+              class="collapse navbar-collapse d-flex justify-content-around"
+              id="navbarNavDropdown"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-dark active"
+                    aria-current="page"
+                    href="../quiz-index.html"
+                    >Test</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="../hero.html"
+                    >Space-hero</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="https://www.nasa.gov/"
+                    >Official NASA site</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link text-dark dropdown-toggle text-warning"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    News about world
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a
+                        class="dropdown-item text-dark"
+                        href="../information.index.html"
+                        >Information about us</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item text-dark"
+                        href="https://www.space.com/news"
+                        >News from space.</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item text-dark"
+                        href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjP1NX8uqj7AhXB2bIKHVsKBOAYABADGgJscg&ohost=www.google.com&cid=CAESa-D237F0_DcHaoByutd7gaaagfMp8mL7XRjnAOdUio0RXrlsNa5w9X_MwEtn-vrzLzlHpHn-CGRtGOAhEeHN7bCi8jR5R8XEnlyrozFIya3lFPJ6ffJUc6s8lUew8e0NOr6TQYlHrM9Sb--X&sig=AOD64_13E6mmxlDgzZmuNU01xFcg6ADGMg&q&adurl&ved=2ahUKEwi-is_8uqj7AhUlx4sKHdkID0oQ0Qx6BAgIEAE"
+                        >News from Earth</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+
+                <li
+                  class="rounded-circle d-flex align-items-center text-center"
+                >
+                  <a href="#" class="">
+                    <img
+                      src="./images/icons8-facebook-новый-60.png"
+                      alt=""
+                      class="w-50"
+                  /></a>
+                </li>
+
+                <li
+                  class="rounded-circle d-flex align-items-center text-center"
+                >
+                  <a href="#">
+                    <img
+                      src="./images/icons8-instagram-60.png"
+                      alt=""
+                      class="w-50"
+                  /></a>
+                </li>
+                <li
+                  class="rounded-circle d-flex align-items-center text-center"
+                >
+                  <a href="#">
+                    <img
+                      src="./images/icons8-твиттер-60.png"
+                      alt=""
+                      class="w-50"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+            <img src="./images/mole hole.png" alt="" width="150px" class="" />
+          </div>
+          <button class="btn" id="switchMode">Dark theme</button>
+        </nav>
+      </div>
+    </header>
+
+    <div class="back">
+      <div class="text-white py-5 d-flex justify-content-center">
+        <div
+          class="quiz d-flex flex-column align-items-center text-center border w-50 rounded-4 p-5 pt-0 bg-dark bg-opacity-25"
+          id="quiz"
+        >
+          <!--Questions Block-->
+          <div class="quiz-questions mb-3" id="questions"></div>
+
+          <!--Indicator-->
+          <div class="quiz-indicator mb-3 text-secondary" id="indicator">
+            1/10
+          </div>
+
+          <!--Results-->
+          <div class="quiz-results mb-2" id="results">
+            <div class="quiz-results-item">
+              <!--Question-->
+              <div class="quiz-results-item_question mb-3 fs-4">Question 1</div>
+
+              <!--Answer-->
+              <ul
+                class="quiz-results-item_answers m-0 p-0 text-decoration-none"
+              >
+                <li>answer 1</li>
+                <li>answer 2</li>
+              </ul>
+            </div>
+          </div>
+
+          <!--Controls-->
+          <div class="quiz-controls">
+            <button
+              disabled
+              class="btn-next border border-2 border-info rounded-1 bg-info bg-opacity-25 text-light"
+              id="btn-next"
+            >
+              Next
+            </button>
+
+            <a
+              href="../quiz-index.html"
+              class="text-decoration-none rounded-5 btn-restart mt-5 py-1 fw-bold h-sh"
+              id="btn-restart"
+            >
+              Back
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../Bootstrap/bootstrap.bundle.js"></script>
+    <script src="../JS quiz/middle.js"></script>
+    <script src="../JS quiz/change-theme.js"></script>
+  </body>
+</html>

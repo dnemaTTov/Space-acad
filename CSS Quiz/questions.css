@@ -1,0 +1,179 @@
+/* FONT */
+@font-face {
+  font-family: "montserrat";
+  src: url(../Fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+/* FONT */
+
+body {
+  transition: 1s;
+  font-family: "montserrat";
+  background: url(../images/39607.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.back {
+  font-family: "montserrat";
+  background: url(../images/39607.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.adopt {
+  border-radius: 50% !important;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  margin-top: 1rem;
+}
+@media screen and (max-width: 900px) {
+  .navbar {
+    display: none !important;
+  }
+  .adopt {
+    display: block !important;
+    margin-top: 10px !important;
+  }
+}
+.btn {
+  background-color: #174585d2;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
+.navbar {
+  background-color: #174585d2;
+}
+.quiz-results,
+.btn-restart {
+  display: none;
+}
+
+.quiz-questions-item_answers,
+.quiz-results-item_answers {
+  list-style: none;
+}
+
+.questions--hidden,
+.indicator--hidden,
+.btn-next--hidden {
+  display: none;
+}
+
+.results--visible,
+.btn-restart--visible {
+  display: block;
+}
+
+.w-100_ {
+  width: 100vw;
+}
+
+.Easy {
+  background-color: #69e83f;
+  width: 50vw;
+  margin-bottom: 20px;
+  border-radius: 14px 14px 0px 0px;
+
+  margin-top: 5rem;
+}
+
+.Normal {
+  background-color: #f2ef41;
+  width: 50vw;
+  margin-bottom: 20px;
+  border-radius: 15px 15px 0px 0px;
+  padding: 5px;
+  margin-top: 5rem;
+}
+
+.Middle {
+  background-color: #ca9b36;
+  width: 50vw;
+  margin-bottom: 20px;
+  border-radius: 15px 15px 0px 0px;
+  padding: 5px;
+  margin-top: 5rem;
+}
+
+.Hard {
+  background-color: #e98221;
+  width: 50vw;
+  margin-bottom: 20px;
+  border-radius: 15px 15px 0px 0px;
+  padding: 5px;
+  margin-top: 5rem;
+}
+
+.Pro {
+  background-color: #eb5338;
+  width: 50vw;
+  margin-bottom: 20px;
+  border-radius: 15px 15px 0px 0px;
+  padding: 5px;
+  margin-top: 5rem;
+}
+
+.shadow_1 {
+  box-shadow: 0px 10px 20px -15px rgb(17, 17, 17);
+  color: #222;
+}
+
+.hover-radio {
+  transition: 0.3s;
+  font-size: normal;
+  width: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.hover-radio :hover {
+  font-size: large;
+  cursor: pointer;
+  transition: 0.5s;
+  width: auto;
+  border: 1px solid gray;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  background-color: lightgray;
+  color: black;
+}
+
+input[type="radio"]::before {
+  content: " ";
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 100%;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+}
+
+.h-sh:hover {
+  box-shadow: 0px 10px 10px -5px black;
+  transition: 0.5s;
+  background-color: #fff;
+  color: #222;
+  border: 1px solid #fff;
+}
+
+.h-sh {
+  transition: 0.5s;
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 70px;
+  border: 1px solid gray;
+  color: gray;
+}
+
+.home {
+  color: white;
+  border: 1px solid gray;
+  transition: 0.5s;
+}
+
+.home:hover {
+  color: black;
+  background-color: white;
+  transition: 0.5s;
+}

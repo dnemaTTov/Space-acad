@@ -1,0 +1,651 @@
+/* SUN */
+.popup__bg-prsn-1 {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgb(0, 0, 0);
+    opacity: 0;
+
+    pointer-events: none;
+
+    transition: 1s all;
+    z-index: 99999;
+}
+
+.popup__bg-prsn-1.active-prsn-1 {
+    opacity: 1;
+
+    pointer-events: all;
+
+    transition: 1s all;
+    z-index: 99999;
+}
+
+.popup-prsn-1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+
+    transition: 1s all;
+    z-index: 99999;
+}
+
+.popup-prsn-1.active-prsn-1 {
+
+    transform: translate(-50%, -50%) scale(1);
+
+    transition: 1s all;
+    z-index: 99999;
+}
+
+
+.close-popup-prsn-1 {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    color: black;
+    z-index: 99999;
+    transition: 0.5s;
+}
+
+.my-btn-close :hover {
+    color: white;
+    background-color: #222;
+    border-radius: 100%;
+    transition: 1s;
+    z-index: 99999;
+}
+
+.bg-sun-hdn {
+    background: linear-gradient(90deg, rgb(255, 145, 0), rgb(255, 81, 0));
+}
+
+/* SUN */
+
+
+
+/* MERCURY */
+.popup__bg-prsn-2 {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgb(0, 0, 0);
+    opacity: 0;
+
+    pointer-events: none;
+
+    transition: 1s all;
+    z-index: 99999;
+}
+
+.popup__bg-prsn-2.active-prsn-2 {
+    opacity: 1;
+
+    pointer-events: all;
+
+    transition: 1s all;
+    z-index: 99999;
+}
+
+.popup-prsn-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+
+    transition: 1s all;
+    z-index: 99999;
+}
+
+.popup-prsn-2.active-prsn-2 {
+
+    transform: translate(-50%, -50%) scale(1);
+
+    transition: 1s all;
+    z-index: 99999;
+}
+
+
+.close-popup-prsn-2 {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    color: black;
+    z-index: 99999;
+    transition: 0.5s;
+}
+
+.my-btn-close :hover {
+    color: white;
+    background-color: #222;
+    border-radius: 100%;
+    transition: 1s;
+    z-index: 99999;
+}
+
+.bg-mrc-hdn {
+    background: linear-gradient(90deg, rgb(245, 171, 73), rgb(190, 118, 24));
+}
+
+/* MERCURY */
+
+
+
+/* VENUS */
+.popup__bg-prsn-3 {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgb(0, 0, 0);
+    opacity: 0;
+
+    pointer-events: none;
+
+    transition: 1s all;
+    z-index: 99999;
+}
+
+.popup__bg-prsn-3.active-prsn-3 {
+    opacity: 1;
+
+    pointer-events: all;
+
+    transition: 1s all;
+    z-index: 99999;
+}
+
+.popup-prsn-3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+
+    transition: 1s all;
+    z-index: 99999;
+}
+
+.popup-prsn-3.active-prsn-3 {
+
+    transform: translate(-50%, -50%) scale(1);
+
+    transition: 1s all;
+    z-index: 99999;
+}
+
+
+.close-popup-prsn-3 {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    color: black;
+    z-index: 99999;
+    transition: 0.5s;
+}
+
+.my-btn-close :hover {
+    color: white;
+    background-color: #222;
+    border-radius: 100%;
+    transition: 1s;
+    z-index: 99999;
+}
+
+.bg-ven-hdn {
+    background: linear-gradient(90deg, rgb(245, 171, 73), rgb(207, 120, 5), rgb(226, 72, 0));
+}
+
+/* VENUS */
+
+
+
+/* EARTH */
+.popup__bg-prsn-4 {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgb(0, 0, 0);
+    opacity: 0;
+
+    pointer-events: none;
+
+    transition: 1s all;
+    z-index: 99999;
+}
+
+.popup__bg-prsn-4.active-prsn-4 {
+    opacity: 1;
+
+    pointer-events: all;
+
+    transition: 1s all;
+    z-index: 99999;
+}
+
+.popup-prsn-4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+
+    transition: 1s all;
+    z-index: 99999;
+}
+
+.popup-prsn-4.active-prsn-4 {
+
+    transform: translate(-50%, -50%) scale(1);
+
+    transition: 1s all;
+    z-index: 99999;
+}
+
+
+.close-popup-prsn-4 {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    color: black;
+    z-index: 99999;
+    transition: 0.5s;
+}
+
+.my-btn-close :hover {
+    color: white;
+    background-color: #222;
+    border-radius: 100%;
+    transition: 1s;
+    z-index: 99999;
+}
+
+.bg-earth-hdn {
+    background: linear-gradient(90deg, rgb(73, 168, 245), rgb(78, 207, 89));
+}
+
+/* EARTH */
+
+
+
+/* MARS */
+.popup__bg-prsn-5 {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgb(0, 0, 0);
+    opacity: 0;
+
+    pointer-events: none;
+
+    transition: 1s all;
+    z-index: 99999;
+}
+
+.popup__bg-prsn-5.active-prsn-5 {
+    opacity: 1;
+
+    pointer-events: all;
+
+    transition: 1s all;
+    z-index: 99999;
+}
+
+.popup-prsn-5 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+
+    transition: 1s all;
+    z-index: 99999;
+}
+
+.popup-prsn-5.active-prsn-5 {
+
+    transform: translate(-50%, -50%) scale(1);
+
+    transition: 1s all;
+    z-index: 99999;
+}
+
+
+.close-popup-prsn-5 {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    color: black;
+    z-index: 99999;
+    transition: 0.5s;
+}
+
+.my-btn-close :hover {
+    color: white;
+    background-color: #222;
+    border-radius: 100%;
+    transition: 1s;
+    z-index: 99999;
+}
+
+.bg-mars-hdn {
+    background: linear-gradient(90deg, rgb(216, 109, 59), rgb(238, 86, 26));
+}
+
+/* MARS */
+
+
+
+/* JUPITER */
+.popup__bg-prsn-6 {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgb(0, 0, 0);
+    opacity: 0;
+
+    pointer-events: none;
+
+    transition: 1s all;
+    z-index: 99999;
+}
+
+.popup__bg-prsn-6.active-prsn-6 {
+    opacity: 1;
+
+    pointer-events: all;
+
+    transition: 1s all;
+    z-index: 99999;
+}
+
+.popup-prsn-6 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+
+    transition: 1s all;
+    z-index: 99999;
+}
+
+.popup-prsn-6.active-prsn-6 {
+
+    transform: translate(-50%, -50%) scale(1);
+
+    transition: 1s all;
+    z-index: 99999;
+}
+
+
+.close-popup-prsn-6 {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    color: black;
+    z-index: 99999;
+    transition: 0.5s;
+}
+
+.my-btn-close :hover {
+    color: white;
+    background-color: #222;
+    border-radius: 100%;
+    transition: 1s;
+    z-index: 99999;
+}
+
+.bg-up-hdn {
+    background: linear-gradient(90deg, rgb(190, 118, 22),  rgb(197, 98, 53), rgb(226, 80, 36));
+}
+
+/* JUPITER */
+
+
+
+/* SATURN */
+.popup__bg-prsn-7 {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgb(0, 0, 0);
+    opacity: 0;
+
+    pointer-events: none;
+
+    transition: 1s all;
+    z-index: 99999;
+}
+
+.popup__bg-prsn-7.active-prsn-7 {
+    opacity: 1;
+
+    pointer-events: all;
+
+    transition: 1s all;
+    z-index: 99999;
+}
+
+.popup-prsn-7 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+
+    transition: 1s all;
+    z-index: 99999;
+}
+
+.popup-prsn-7.active-prsn-7 {
+
+    transform: translate(-50%, -50%) scale(1);
+
+    transition: 1s all;
+    z-index: 99999;
+}
+
+
+.close-popup-prsn-7 {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    color: black;
+    z-index: 99999;
+    transition: 0.5s;
+}
+
+.my-btn-close :hover {
+    color: white;
+    background-color: #222;
+    border-radius: 100%;
+    transition: 1s;
+    z-index: 99999;
+}
+
+.bg-sat-hdn {
+    background: linear-gradient(90deg, rgb(231, 154, 215), rgb(141, 74, 204));
+}
+
+/* SATURN */
+
+
+
+/* URAN */
+.popup__bg-prsn-8 {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgb(0, 0, 0);
+    opacity: 0;
+
+    pointer-events: none;
+
+    transition: 1s all;
+    z-index: 99999;
+}
+
+.popup__bg-prsn-8.active-prsn-8 {
+    opacity: 1;
+
+    pointer-events: all;
+
+    transition: 1s all;
+    z-index: 99999;
+}
+
+.popup-prsn-8 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+
+    transition: 1s all;
+    z-index: 99999;
+}
+
+.popup-prsn-8.active-prsn-8 {
+
+    transform: translate(-50%, -50%) scale(1);
+
+    transition: 1s all;
+    z-index: 99999;
+}
+
+
+.close-popup-prsn-8 {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    color: black;
+    z-index: 99999;
+    transition: 0.5s;
+}
+
+.my-btn-close :hover {
+    color: white;
+    background-color: #222;
+    border-radius: 100%;
+    transition: 1s;
+    z-index: 99999;
+}
+
+.bg-ur-hdn {
+    background: linear-gradient(90deg, rgb(73, 176, 245), rgb(0, 117, 226));
+}
+
+/* URAN */
+
+
+
+/* NEPTUNE */
+.popup__bg-prsn-9 {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgb(0, 0, 0);
+    opacity: 0;
+
+    pointer-events: none;
+
+    transition: 1s all;
+    z-index: 99999;
+}
+
+.popup__bg-prsn-9.active-prsn-9 {
+    opacity: 1;
+
+    pointer-events: all;
+
+    transition: 1s all;
+    z-index: 99999;
+}
+
+.popup-prsn-9 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+
+    transition: 1s all;
+    z-index: 99999;
+}
+
+.popup-prsn-9.active-prsn-9 {
+
+    transform: translate(-50%, -50%) scale(1);
+
+    transition: 1s all;
+    z-index: 99999;
+}
+
+
+.close-popup-prsn-9 {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    color: black;
+    z-index: 99999;
+    transition: 0.5s;
+}
+
+.my-btn-close :hover {
+    color: white;
+    background-color: #222;
+    border-radius: 100%;
+    transition: 1s;
+    z-index: 99999;
+}
+
+.bg-nep-hdn {
+    background: linear-gradient(90deg, rgb(67, 154, 212), rgb(7, 77, 143));
+}
+
+/* NEPTUNE */
+
+
+.page-btn {
+    transition: 0.6s;
+    cursor: pointer;
+    background-color: #222;
+    color: white;
+}
+
+.page-btn :hover{
+    transition: 0.6s;
+    background-color: lightgray;
+    color: #222;
+    box-shadow: 0px 14px 20px -7px black;
+}
