@@ -787,7 +787,6 @@ body {
   border-radius: 12px;
   font-weight: bold;
 }
-
 .active_ {
   border-radius: 12px 12px 0px 0px;
   transition: 0.4s;
