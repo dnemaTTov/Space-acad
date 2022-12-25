@@ -17,3 +17,6 @@ body {
   display: flex;
   flex-wrap: nowrap;
 }
+.tr-1 {
+  transition: 1s;
+}

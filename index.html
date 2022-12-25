@@ -19,203 +19,842 @@
   <script src="./JS/clock.js"></script>
   <!-- звездочик-ссылки -->
   <body class="bg-black" id="field">
-    <!-- часы -->
-    <span id="clock" class="position-fixed opacity-60 p-3 h5 top-50 clock z-a">
-    </span>
-    <!-- header adopt -->
-    <div class="d-block d-xl-none position-fixed container-fluid z-a">
-      <div class="collapse" id="navbarToggleExternalContent">
-        <div class="dark rounded-4 p-2">
-          <div class="d-flex flex-column">
-            <a
-              class="shadow-lg text-warning text-decoration-none h4"
-              href="./index.html"
-              >Main page</a
-            >
-            <a class="shadow-lg text-decoration-none h5" href="./hero.html"
-              >Space-hero</a
-            >
-            <a
-              class="shadow-lg text-decoration-none h5"
-              href="./information.index.html"
-              >Information</a
-            >
-            <a
-              class="shadow-lg text-decoration-none h5"
-              href="./quiz-index.html"
-              >Test</a
-            >
-          </div>
-
-          <button
-            class="btn text-sm d-sm-block d-xs-block d-xl-none"
-            id="switchMode_"
-          >
-            Dark theme
-          </button>
-        </div>
-      </div>
-
-      <nav class="p-1 navbar-dark rounded-4 dark">
-        <div class="container-fluid">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarToggleExternalContent"
-            aria-controls="navbarToggleExternalContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
-      </nav>
-    </div>
-
-    <!-- header для моей страницы -->
-    <header>
-      <div
-        class="position position-fixed d-sm-none d-xs-none d-md-none d-lg-none d-xl-block container-fluid z-a"
+    <div class="body">
+      <!-- часы -->
+      <span
+        id="clock"
+        class="position-fixed opacity-60 p-3 h5 top-50 clock z-a"
       >
-        <nav
-          class="navbar navbar-expand-lg text-white rounded-2 d-flex justify-content-center col-sm-12"
-        >
-          <div class="container d-flex justify-content-center">
-            <div class="">
-              <a class="navbar-brand text-warning fw-bold" href="./index.html"
-                >Main-page</a
+      </span>
+      <!-- header adopt -->
+      <div class="d-block d-xl-none position-fixed container-fluid z-a">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="dark rounded-4 p-4">
+            <div class="d-flex flex-column">
+              <a
+                class="shadow-lg text-warning text-decoration-none h4"
+                href="./index.html"
+                >Main page</a
+              >
+              <a class="shadow-lg text-decoration-none h5" href="./hero.html"
+                >Space-hero</a
+              >
+              <a
+                class="shadow-lg text-decoration-none h5"
+                href="./information.index.html"
+                >Information</a
+              >
+              <a
+                class="shadow-lg text-decoration-none h5"
+                href="./quiz-index.html"
+                >Test</a
               >
             </div>
 
-            <div
-              class="collapse navbar-collapse d-flex justify-content-around"
-              id="navbarNavDropdown"
+            <button
+              class="btn text-sm d-sm-block d-xs-block d-xl-none"
+              id="switchMode_"
             >
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a
-                    class="nav-link dark active"
-                    aria-current="page"
-                    href="./quiz-index.html"
-                    >Test</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link dark active" href="./hero.html"
-                    >Space-hero</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link dark active" href="https://www.nasa.gov/"
-                    >Official NASA site</a
-                  >
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle text-warning"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    News about world
-                  </a>
-                  <ul class="dropdown-menu dark">
-                    <li>
-                      <a
-                        class="dropdown-item dark"
-                        href="./information.index.html"
-                        >Information about us</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="dropdown-item dark"
-                        href="https://www.space.com/news"
-                        >News from space.</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="dropdown-item dark"
-                        href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjP1NX8uqj7AhXB2bIKHVsKBOAYABADGgJscg&ohost=www.google.com&cid=CAESa-D237F0_DcHaoByutd7gaaagfMp8mL7XRjnAOdUio0RXrlsNa5w9X_MwEtn-vrzLzlHpHn-CGRtGOAhEeHN7bCi8jR5R8XEnlyrozFIya3lFPJ6ffJUc6s8lUew8e0NOr6TQYlHrM9Sb--X&sig=AOD64_13E6mmxlDgzZmuNU01xFcg6ADGMg&q&adurl&ved=2ahUKEwi-is_8uqj7AhUlx4sKHdkID0oQ0Qx6BAgIEAE"
-                        >News from Earth</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-
-                <li
-                  class="rounded-circle d-flex align-items-center text-center"
-                >
-                  <a href="#" class="">
-                    <img
-                      src="./images/icons8-facebook-новый-60.png"
-                      alt=""
-                      class="w-50"
-                  /></a>
-                </li>
-
-                <li
-                  class="rounded-circle d-flex align-items-center text-center"
-                >
-                  <a href="#">
-                    <img
-                      src="./images/icons8-instagram-60.png"
-                      alt=""
-                      class="w-50"
-                  /></a>
-                </li>
-                <li
-                  class="rounded-circle d-flex align-items-center text-center"
-                >
-                  <a href="#">
-                    <img
-                      src="./images/icons8-твиттер-60.png"
-                      alt=""
-                      class="w-50"
-                  /></a>
-                </li>
-              </ul>
-            </div>
-            <img src="./images/mole hole.png" alt="" width="150px" class="" />
+              Dark theme
+            </button>
           </div>
-          <button class="btn" id="switchMode">Dark theme</button>
+        </div>
+
+        <nav class="p-1 navbar-dark rounded-4 dark">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarToggleExternalContent"
+              aria-controls="navbarToggleExternalContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
         </nav>
       </div>
-    </header>
 
-    <div class="orbit">
-      <!--Hidden Cards-->
-      <div class="d-none d-xxl-block">
-        <!--Sun-->
-        <div class="popup__bg-prsn-1">
-          <div class="popup-prsn-1 rounded-bottom rounded-top my-bg-dark mb-5">
-            <!-- Button Close -->
-            <div class="my-btn-close">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="32"
-                fill="currentColor"
-                class="bi bi-x close-popup-prsn-1"
-                viewBox="0 0 16 16"
+      <!-- header для моей страницы -->
+      <header>
+        <div
+          class="position position-fixed d-sm-none d-xs-none d-md-none d-lg-none d-xl-block container-fluid z-a"
+        >
+          <nav
+            class="navbar navbar-expand-lg text-white rounded-2 d-flex justify-content-center col-sm-12"
+          >
+            <div class="container d-flex justify-content-center">
+              <div class="">
+                <a
+                  class="navbar-brand text-warning_ fw-bold"
+                  href="./index.html"
+                  >Main-page</a
+                >
+              </div>
+
+              <div
+                class="collapse navbar-collapse d-flex justify-content-around fw-bold"
+                id="navbarNavDropdown"
               >
-                <path
-                  d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
-                />
-              </svg>
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active hvr-btn"
+                      aria-current="page"
+                      href="./quiz-index.html"
+                      >Test</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active hvr-btn" href="./hero.html"
+                      >Space-hero</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active hvr-btn"
+                      href="https://www.nasa.gov/"
+                      >Official NASA site</a
+                    >
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle text-warning_"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      News about world
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="./information.index.html"
+                          >Information about us</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="https://www.space.com/news"
+                          >News from space.</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjP1NX8uqj7AhXB2bIKHVsKBOAYABADGgJscg&ohost=www.google.com&cid=CAESa-D237F0_DcHaoByutd7gaaagfMp8mL7XRjnAOdUio0RXrlsNa5w9X_MwEtn-vrzLzlHpHn-CGRtGOAhEeHN7bCi8jR5R8XEnlyrozFIya3lFPJ6ffJUc6s8lUew8e0NOr6TQYlHrM9Sb--X&sig=AOD64_13E6mmxlDgzZmuNU01xFcg6ADGMg&q&adurl&ved=2ahUKEwi-is_8uqj7AhUlx4sKHdkID0oQ0Qx6BAgIEAE"
+                          >News from Earth</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li
+                    class="rounded-circle d-flex align-items-center text-center"
+                  >
+                    <a href="#" class="">
+                      <img
+                        src="./images/icons8-facebook-новый-60.png"
+                        alt=""
+                        class="w-50"
+                    /></a>
+                  </li>
+
+                  <li
+                    class="rounded-circle d-flex align-items-center text-center"
+                  >
+                    <a href="#">
+                      <img
+                        src="./images/icons8-instagram-60.png"
+                        alt=""
+                        class="w-50"
+                    /></a>
+                  </li>
+                  <li
+                    class="rounded-circle d-flex align-items-center text-center"
+                  >
+                    <a href="#">
+                      <img
+                        src="./images/icons8-твиттер-60.png"
+                        alt=""
+                        class="w-50"
+                    /></a>
+                  </li>
+                </ul>
+              </div>
+              <img src="./images/mole hole.png" alt="" width="150px" class="" />
             </div>
 
-            <!--Card-->
-            <div class="container p-5 rounded-5 bg-sun-hdn">
-              <!--Text-->
-              <div class="container">
-                <!--Main-->
-                <div class="h1 lang text-center fw-bold" key="sun">Sun</div>
+            <div class="btn" id="switchMode">Dark theme</div>
+          </nav>
+        </div>
+      </header>
 
-                <!--Basic-->
-                <div class="mb-3 fw-bold">
+      <div class="orbit">
+        <!--Hidden Cards-->
+        <div class="d-none d-xxl-block">
+          <!--Sun-->
+          <div class="popup__bg-prsn-1">
+            <div
+              class="popup-prsn-1 rounded-bottom rounded-top my-bg-dark mb-5"
+            >
+              <!-- Button Close -->
+              <div class="my-btn-close">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  fill="currentColor"
+                  class="bi bi-x close-popup-prsn-1"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
+                  />
+                </svg>
+              </div>
+
+              <!--Card-->
+              <div class="container p-5 rounded-5 bg-sun-hdn">
+                <!--Text-->
+                <div class="container">
+                  <!--Main-->
+                  <div class="h1 lang text-center fw-bold" key="sun">Sun</div>
+
+                  <!--Basic-->
+                  <div class="mb-3 fw-bold">
+                    The sun - the central body of the solar system - is a hot
+                    ball of gas. It is 750 times more massive than all other
+                    bodies in the solar system combined. That is why everything
+                    in the solar system can be roughly considered to revolve
+                    around the sun. The sun outweighs the earth 330,000 times.
+                  </div>
+
+                  <a
+                    href="./HTML Sun system/sun.html"
+                    class="text-decoration-none page-btn"
+                  >
+                    <div
+                      class="text-center w-100 fw-bold rounded-5 py-1 page-btn"
+                    >
+                      Know More
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Mercury-->
+          <div class="popup__bg-prsn-2">
+            <div
+              class="popup-prsn-2 rounded-bottom rounded-top my-bg-dark mb-5"
+            >
+              <!-- Button Close -->
+              <div class="my-btn-close">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  fill="currentColor"
+                  class="bi bi-x close-popup-prsn-2"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
+                  />
+                </svg>
+              </div>
+
+              <!--Card-->
+              <div class="container p-5 rounded-5 bg-mrc-hdn">
+                <!--Text-->
+                <div class="container">
+                  <!--Main-->
+                  <div class="h1 lang text-center fw-bold" key="mercury">
+                    Mercury
+                  </div>
+
+                  <!--Basic-->
+                  <div class="text-center mb-3 fw-bold">
+                    Mercury is a "fast-footed" planet. It rushes around the Sun
+                    at a speed of about 172 km / h, 3 times faster than the
+                    Earth. That is why the planet was named Mercury - in honor
+                    of the ancient Roman god of trade, famous for his speed and
+                    tirelessness - he did not sleep day or night.
+                  </div>
+
+                  <a
+                    href="./HTML Sun system/mercury.html"
+                    class="text-decoration-none page-btn"
+                  >
+                    <div
+                      class="text-center w-100 fw-bold rounded-5 py-1 page-btn"
+                    >
+                      Know More
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Venus-->
+          <div class="popup__bg-prsn-3">
+            <div
+              class="popup-prsn-3 rounded-bottom rounded-top my-bg-dark mb-5"
+            >
+              <!-- Button Close -->
+              <div class="my-btn-close">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  fill="currentColor"
+                  class="bi bi-x close-popup-prsn-3"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
+                  />
+                </svg>
+              </div>
+
+              <!--Card-->
+              <div class="container p-5 rounded-5 bg-ven-hdn">
+                <!--Text-->
+                <div class="container">
+                  <!--Main-->
+                  <div class="h1 lang text-center fw-bold" key="venus">
+                    Venus
+                  </div>
+
+                  <!--Basic-->
+                  <div class="text-center mb-3 fw-bold">
+                    The atmosphere of Venus, the densest among the Earth-like
+                    planets, consists mainly of carbon dioxide. The surface of
+                    the planet is completely hidden by clouds of sulfuric acid,
+                    opaque in visible light.
+                  </div>
+
+                  <a
+                    href="./HTML Sun system/venus.html"
+                    class="text-decoration-none page-btn"
+                  >
+                    <div
+                      class="text-center w-100 fw-bold rounded-5 py-1 page-btn"
+                    >
+                      Know More
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Earth-->
+          <div class="popup__bg-prsn-4">
+            <div
+              class="popup-prsn-4 rounded-bottom rounded-top my-bg-dark mb-5"
+            >
+              <!-- Button Close -->
+              <div class="my-btn-close">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  fill="currentColor"
+                  class="bi bi-x close-popup-prsn-4"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
+                  />
+                </svg>
+              </div>
+
+              <!--Card-->
+              <div class="container p-5 rounded-5 bg-earth-hdn">
+                <!--Text-->
+                <div class="container">
+                  <!--Main-->
+                  <div class="h1 lang text-center fw-bold" key="earth">
+                    Earth
+                  </div>
+
+                  <!--Basic-->
+                  <div class="text-center mb-3 fw-bold">
+                    Earth is a unique, diverse planet. There are continents and
+                    oceans, large plains and high mountains, huge forests and
+                    desert areas, the largest cities and uninhabited areas of
+                    the earth's surface.
+                  </div>
+
+                  <a
+                    href="./HTML Sun system/earth.html"
+                    class="text-decoration-none page-btn"
+                  >
+                    <div
+                      class="text-center w-100 fw-bold rounded-5 py-1 page-btn"
+                    >
+                      Know More
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Mars-->
+          <div class="popup__bg-prsn-5">
+            <div
+              class="popup-prsn-5 rounded-bottom rounded-top my-bg-dark mb-5"
+            >
+              <!-- Button Close -->
+              <div class="my-btn-close">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  fill="currentColor"
+                  class="bi bi-x close-popup-prsn-5"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
+                  />
+                </svg>
+              </div>
+
+              <!--Card-->
+              <div class="container p-5 rounded-5 bg-mars-hdn">
+                <!--Text-->
+                <div class="container">
+                  <!--Main-->
+                  <div class="h1 lang text-center fw-bold" key="mars">Mars</div>
+
+                  <!--Basic-->
+                  <div class="text-center mb-3 fw-bold">
+                    Mars is a terrestrial planet with a rarefied atmosphere (the
+                    pressure on the surface is 160 times less than that of the
+                    earth). The features of the surface relief of Mars can be
+                    considered impact craters like those of the moon, as well as
+                    volcanoes, valleys, deserts and polar ice caps like those of
+                    the earth.
+                  </div>
+
+                  <a
+                    href="./HTML Sun system/mars.html"
+                    class="text-decoration-none page-btn"
+                  >
+                    <div
+                      class="text-center w-100 fw-bold rounded-5 py-1 page-btn"
+                    >
+                      Know More
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Jupiter-->
+          <div class="popup__bg-prsn-6">
+            <div
+              class="popup-prsn-6 rounded-bottom rounded-top my-bg-dark mb-5"
+            >
+              <!-- Button Close -->
+              <div class="my-btn-close">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  fill="currentColor"
+                  class="bi bi-x close-popup-prsn-6"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
+                  />
+                </svg>
+              </div>
+
+              <!--Card-->
+              <div class="container p-5 rounded-5 bg-up-hdn">
+                <!--Text-->
+                <div class="container">
+                  <!--Main-->
+                  <div class="h1 lang text-center fw-bold" key="jupiter">
+                    Jupiter
+                  </div>
+
+                  <!--Basic-->
+                  <div class="text-center mb-3 fw-bold">
+                    Jupiter is the largest planet in the solar system, a gas
+                    giant. Its equatorial radius is 71.4 thousand km, which is
+                    11.2 times the radius of the Earth. Jupiter is the only
+                    planet whose center of mass with the Sun is outside the Sun
+                    and is about 7% of the solar radius from it.
+                  </div>
+
+                  <a
+                    href="./HTML Sun system/jupiter.html"
+                    class="text-decoration-none page-btn"
+                  >
+                    <div
+                      class="text-center w-100 fw-bold rounded-5 py-1 page-btn"
+                    >
+                      Know More
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Saturn-->
+          <div class="popup__bg-prsn-7">
+            <div
+              class="popup-prsn-7 rounded-bottom rounded-top my-bg-dark mb-5"
+            >
+              <!-- Button Close -->
+              <div class="my-btn-close">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  fill="currentColor"
+                  class="bi bi-x close-popup-prsn-7"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
+                  />
+                </svg>
+              </div>
+
+              <!--Card-->
+              <div class="container p-5 rounded-5 bg-sat-hdn">
+                <!--Text-->
+                <div class="container">
+                  <!--Main-->
+                  <div class="h1 lang text-center fw-bold" key="saturn">
+                    Saturn
+                  </div>
+
+                  <!--Basic-->
+                  <div class="text-center mb-3 fw-bold">
+                    Saturn has a prominent ring system, consisting mainly of ice
+                    particles, a smaller amount of heavy elements and dust.
+                    There are currently 83 known satellites orbiting the planet.
+                  </div>
+
+                  <a
+                    href="./HTML Sun system/saturn.html"
+                    class="text-decoration-none page-btn"
+                  >
+                    <div
+                      class="text-center w-100 fw-bold rounded-5 py-1 page-btn"
+                    >
+                      Know More
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Uranus-->
+          <div class="popup__bg-prsn-8">
+            <div
+              class="popup-prsn-8 rounded-bottom rounded-top my-bg-dark mb-5"
+            >
+              <!-- Button Close -->
+              <div class="my-btn-close">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  fill="currentColor"
+                  class="bi bi-x close-popup-prsn-8"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
+                  />
+                </svg>
+              </div>
+
+              <!--Card-->
+              <div class="container p-5 rounded-5 bg-ur-hdn">
+                <!--Text-->
+                <div class="container">
+                  <!--Main-->
+                  <div class="h1 lang text-center fw-bold" key="uranus">
+                    Uranus
+                  </div>
+
+                  <!--Basic-->
+                  <div class="text-center mb-3 fw-bold">
+                    It is the coldest planetary atmosphere in the solar system,
+                    with a minimum temperature of 49 K (-224 °C). It is believed
+                    that Uranus has a complex layered structure of clouds, where
+                    water is the bottom layer, and methane is the top. The
+                    bowels of Uranus consist mainly of ice and rocks.
+                  </div>
+
+                  <a
+                    href="./HTML Sun system/uranus.html"
+                    class="text-decoration-none page-btn"
+                  >
+                    <div
+                      class="text-center w-100 fw-bold rounded-5 py-1 page-btn"
+                    >
+                      Know More
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Neptune-->
+          <div class="popup__bg-prsn-9">
+            <div
+              class="popup-prsn-9 rounded-bottom rounded-top my-bg-dark mb-5"
+            >
+              <!-- Button Close -->
+              <div class="my-btn-close">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  fill="currentColor"
+                  class="bi bi-x close-popup-prsn-9"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
+                  />
+                </svg>
+              </div>
+
+              <!--Card-->
+              <div class="container p-5 rounded-5 bg-nep-hdn">
+                <!--Text-->
+                <div class="container">
+                  <!--Main-->
+                  <div class="h1 lang text-center fw-bold" key="neptune">
+                    Neptune
+                  </div>
+
+                  <!--Basic-->
+                  <div class="text-center mb-3 fw-bold">
+                    Neptune is known as the eighth and farthest planet from the
+                    Sun, which cannot be observed with the naked eye from Earth.
+                    This distant blue planet has faint rings, numerous moons and
+                    no solid surface.
+                  </div>
+
+                  <a
+                    href="./HTML Sun system/neptune.html"
+                    class="text-decoration-none page-btn"
+                  >
+                    <div
+                      class="text-center w-100 fw-bold rounded-5 py-1 page-btn"
+                    >
+                      Know More
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-------------------------------------------------------------------------------------------------->
+
+        <!--SUN'S SYSTEM-->
+        <div class="d-none d-xxl-block">
+          <div class="system-div">
+            <!-- black hole  -->
+            <div class="grow">
+              <a href="" class="rounded-circle open-popup-prsn-1"
+                ><img
+                  src="./images/icons8-black-hole-96.png"
+                  alt="#"
+                  width="50px"
+                  class="aster_11 grow-planet"
+              /></a>
+            </div>
+            <!--SUN-->
+            <div class="sun grow">
+              <a href="" class="rounded-circle open-popup-prsn-1">
+                <img
+                  src="./images/sun.png"
+                  alt=""
+                  class="rounded-circle sun sun-move sun-w"
+                />
+              </a>
+            </div>
+
+            <!--MERC-->
+            <div class="rounded-circle main-merc">
+              <div href="" class="merc rounded-circle">
+                <a href="" class="open-popup-prsn-2">
+                  <img
+                    src="./images/mercury.png"
+                    alt=""
+                    class="rounded-circle grow-planet"
+                    width="50px"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <!--VEN-->
+
+            <div class="rounded-circle main-ven">
+              <div href="" class="ven rounded-circle">
+                <a href="" class="open-popup-prsn-3">
+                  <img
+                    src="./images/venus.png"
+                    alt=""
+                    class="rounded-circle grow-planet"
+                    width="60px"
+                  />
+                </a>
+                <a href="#sate">
+                  <img
+                    src="./images/icons8-спутник-96.png"
+                    alt=""
+                    width="30px"
+                    class="sputnik grow-planet"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <!--EARTH-->
+            <div class="rounded-circle main-earth">
+              <div href="" class="earth rounded-circle">
+                <a href="" class="open-popup-prsn-4">
+                  <img
+                    src="./images/planet-earth.png"
+                    alt=""
+                    class="rounded-circle grow-planet"
+                    width="60px"
+                  />
+                </a>
+
+                <a href="#sate">
+                  <img
+                    src="./images/icons8-луна-96.png"
+                    alt=""
+                    width="30px"
+                    class="moon grow-planet"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <!--MARS-->
+            <div class="rounded-circle main-mars">
+              <div href="" class="mars rounded-circle">
+                <a href="" class="open-popup-prsn-5">
+                  <img
+                    src="./images/mars.png"
+                    alt=""
+                    class="rounded-circle grow-planet"
+                    width="55px"
+                  />
+                </a>
+                <a href="#sate">
+                  <img
+                    src="./images/icons8-ракета-96.png"
+                    alt=""
+                    width="30px"
+                    class="sputnik grow-planet"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <!--UP-->
+            <div class="rounded-circle main-up">
+              <div href="" class="up rounded-circle">
+                <a href="" class="grow-planet open-popup-prsn-6">
+                  <img
+                    src="./images/jupiter.png"
+                    alt=""
+                    class="rounded-circle grow-planet"
+                    width="100px"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <!--SAT-->
+            <div class="rounded-circle main-sat">
+              <div href="" class="sat rounded-circle">
+                <a href="" class="open-popup-prsn-7">
+                  <img
+                    src="./images/saturn.png"
+                    alt=""
+                    class="rounded-circle grow-planet"
+                    width="100px"
+                  />
+                </a>
+              </div>
+            </div>
+            <!--UR-->
+            <div class="rounded-circle main-ur col-sm-5">
+              <a
+                href=""
+                class="ur grow-planet rounded-circle open-popup-prsn-8"
+              >
+                <img
+                  src="./images/uranus.png"
+                  alt=""
+                  class="rounded-circle"
+                  width="70px"
+                />
+              </a>
+            </div>
+
+            <!--NEP-->
+            <div class="rounded-circle main-nep">
+              <div href="" class="nep rounded-circle">
+                <a href="" class="open-popup-prsn-9">
+                  <img
+                    src="./images/neptune.png"
+                    alt=""
+                    class="rounded-circle grow-planet"
+                    width="60px"
+                  />
+                </a>
+                <a href="#sate">
+                  <img
+                    src="./images/icons8-вифлеемская-звезда-96.png"
+                    alt=""
+                    width="30px"
+                    class="moon grow-planet"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--SUN'S SYSTEM-SM-->
+        <div class="d-block d-xxl-none">
+          <div class="d-flex justify-content-center container">
+            <div class="container row justify-content-between gy-5">
+              <!--SUN-->
+              <div
+                class="col-12 text-center border rounded-5 pt-5 pb-4 bg-light sm-shadow"
+              >
+                <!--Image-->
+                <a class="">
+                  <img src="./images/sun.png" alt="" class="sun-move w-50" />
+                </a>
+
+                <!--Body-->
+                <div class="mt-5 fw-bold">
                   The sun - the central body of the solar system - is a hot ball
                   of gas. It is 750 times more massive than all other bodies in
                   the solar system combined. That is why everything in the solar
@@ -223,51 +862,35 @@
                   The sun outweighs the earth 330,000 times.
                 </div>
 
+                <!--Link-->
                 <a
                   href="./HTML Sun system/sun.html"
-                  class="text-decoration-none page-btn"
+                  class="text-decoration-none page-btn-sun"
                   target="_blank"
                 >
                   <div
-                    class="text-center w-100 fw-bold rounded-5 py-1 page-btn"
+                    class="text-center w-100 fw-bold rounded-5 py-1 mt-4 page-btn-sun mt-auto"
                   >
                     Know More
                   </div>
                 </a>
               </div>
-            </div>
-          </div>
-        </div>
 
-        <!--Mercury-->
-        <div class="popup__bg-prsn-2">
-          <div class="popup-prsn-2 rounded-bottom rounded-top my-bg-dark mb-5">
-            <!-- Button Close -->
-            <div class="my-btn-close">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="32"
-                fill="currentColor"
-                class="bi bi-x close-popup-prsn-2"
-                viewBox="0 0 16 16"
+              <!--MERC-->
+              <div
+                class="col-md-5 col-12 text-center border rounded-5 pt-5 pb-4 bg-light sm-shadow"
               >
-                <path
-                  d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
-                />
-              </svg>
-            </div>
+                <!--Image-->
+                <a href="" class="grow-planet open-popup-prsn-2">
+                  <img
+                    src="./images/mercury.png"
+                    alt=""
+                    class="sun-move w-50"
+                  />
+                </a>
 
-            <!--Card-->
-            <div class="container p-5 rounded-5 bg-mrc-hdn">
-              <!--Text-->
-              <div class="container">
-                <!--Main-->
-                <div class="h1 lang text-center fw-bold" key="mercury">
-                  Mercury
-                </div>
-
-                <!--Basic-->
-                <div class="text-center mb-3 fw-bold">
+                <!--Body-->
+                <div class="mt-5 fw-bold">
                   Mercury is a "fast-footed" planet. It rushes around the Sun at
                   a speed of about 172 km / h, 3 times faster than the Earth.
                   That is why the planet was named Mercury - in honor of the
@@ -275,200 +898,134 @@
                   tirelessness - he did not sleep day or night.
                 </div>
 
+                <!--Link-->
                 <a
-                  href="./HTML Sun system/mercury.html"
-                  class="text-decoration-none page-btn"
+                  href="./HTML Sun system/sun.html"
+                  class="text-decoration-none page-btn-merc"
                   target="_blank"
                 >
                   <div
-                    class="text-center w-100 fw-bold rounded-5 py-1 page-btn"
+                    class="text-center w-100 fw-bold rounded-5 mt-4 py-1 page-btn-merc"
                   >
                     Know More
                   </div>
                 </a>
               </div>
-            </div>
-          </div>
-        </div>
 
-        <!--Venus-->
-        <div class="popup__bg-prsn-3">
-          <div class="popup-prsn-3 rounded-bottom rounded-top my-bg-dark mb-5">
-            <!-- Button Close -->
-            <div class="my-btn-close">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="32"
-                fill="currentColor"
-                class="bi bi-x close-popup-prsn-3"
-                viewBox="0 0 16 16"
+              <!--VEN-->
+              <div
+                class="col-md-5 col-12 text-center border rounded-5 pt-5 pb-4 bg-light sm-shadow"
               >
-                <path
-                  d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
-                />
-              </svg>
-            </div>
+                <!--Image-->
+                <a href="" class="grow-planet open-popup-prsn-3">
+                  <img src="./images/venus.png" alt="" class="sun-move w-50" />
+                </a>
 
-            <!--Card-->
-            <div class="container p-5 rounded-5 bg-ven-hdn">
-              <!--Text-->
-              <div class="container">
-                <!--Main-->
-                <div class="h1 lang text-center fw-bold" key="venus">Venus</div>
-
-                <!--Basic-->
-                <div class="text-center mb-3 fw-bold">
+                <!--Body-->
+                <div class="mt-5 fw-bold">
                   The atmosphere of Venus, the densest among the Earth-like
                   planets, consists mainly of carbon dioxide. The surface of the
                   planet is completely hidden by clouds of sulfuric acid, opaque
                   in visible light.
                 </div>
 
+                <!--Link-->
                 <a
-                  href="./HTML Sun system/venus.html"
-                  class="text-decoration-none page-btn"
+                  href="./HTML Sun system/sun.html"
+                  class="text-decoration-none page-btn-ven b"
                   target="_blank"
                 >
                   <div
-                    class="text-center w-100 fw-bold rounded-5 py-1 page-btn"
+                    class="text-center w-100 fw-bold rounded-5 mt-4 py-1 page-btn-ven"
                   >
                     Know More
                   </div>
                 </a>
               </div>
-            </div>
-          </div>
-        </div>
 
-        <!--Earth-->
-        <div class="popup__bg-prsn-4">
-          <div class="popup-prsn-4 rounded-bottom rounded-top my-bg-dark mb-5">
-            <!-- Button Close -->
-            <div class="my-btn-close">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="32"
-                fill="currentColor"
-                class="bi bi-x close-popup-prsn-4"
-                viewBox="0 0 16 16"
+              <!--EARTH-->
+              <div
+                class="col-md-5 col-12 text-center border rounded-5 pt-5 pb-4 bg-light sm-shadow"
               >
-                <path
-                  d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
-                />
-              </svg>
-            </div>
+                <!--Image-->
+                <a href="" class="grow-planet open-popup-prsn-4">
+                  <img
+                    src="./images/planet-earth.png"
+                    alt=""
+                    class="sun-move w-50"
+                  />
+                </a>
 
-            <!--Card-->
-            <div class="container p-5 rounded-5 bg-earth-hdn">
-              <!--Text-->
-              <div class="container">
-                <!--Main-->
-                <div class="h1 lang text-center fw-bold" key="earth">Earth</div>
-
-                <!--Basic-->
-                <div class="text-center mb-3 fw-bold">
+                <!--Body-->
+                <div class="mt-5 fw-bold">
                   Earth is a unique, diverse planet. There are continents and
                   oceans, large plains and high mountains, huge forests and
                   desert areas, the largest cities and uninhabited areas of the
                   earth's surface.
                 </div>
 
+                <!--Link-->
                 <a
-                  href="./HTML Sun system/earth.html"
-                  class="text-decoration-none page-btn"
+                  href="./HTML Sun system/sun.html"
+                  class="text-decoration-none page-btn-earth"
                   target="_blank"
                 >
                   <div
-                    class="text-center w-100 fw-bold rounded-5 py-1 page-btn"
+                    class="text-center w-100 fw-bold rounded-5 mt-4 py-1 page-btn-earth b"
                   >
                     Know More
                   </div>
                 </a>
               </div>
-            </div>
-          </div>
-        </div>
 
-        <!--Mars-->
-        <div class="popup__bg-prsn-5">
-          <div class="popup-prsn-5 rounded-bottom rounded-top my-bg-dark mb-5">
-            <!-- Button Close -->
-            <div class="my-btn-close">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="32"
-                fill="currentColor"
-                class="bi bi-x close-popup-prsn-5"
-                viewBox="0 0 16 16"
+              <!--MARS-->
+              <div
+                class="col-md-5 col-12 text-center border rounded-5 pt-5 pb-4 bg-light sm-shadow"
               >
-                <path
-                  d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
-                />
-              </svg>
-            </div>
+                <!--Image-->
+                <a href="" class="grow-planet open-popup-prsn-5">
+                  <img src="./images/mars.png" alt="" class="sun-move w-50" />
+                </a>
 
-            <!--Card-->
-            <div class="container p-5 rounded-5 bg-mars-hdn">
-              <!--Text-->
-              <div class="container">
-                <!--Main-->
-                <div class="h1 lang text-center fw-bold" key="mars">Mars</div>
-
-                <!--Basic-->
-                <div class="text-center mb-3 fw-bold">
+                <!--Body-->
+                <div class="mt-5 fw-bold">
                   Mars is a terrestrial planet with a rarefied atmosphere (the
                   pressure on the surface is 160 times less than that of the
                   earth). The features of the surface relief of Mars can be
                   considered impact craters like those of the moon, as well as
                   volcanoes, valleys, deserts and polar ice caps like those of
-                  the earth.
+                  the earth
                 </div>
 
+                <!--Link-->
                 <a
-                  href="./HTML Sun system/mars.html"
-                  class="text-decoration-none page-btn"
+                  href="./HTML Sun system/sun.html"
+                  class="text-decoration-none page-btn-mars"
                   target="_blank"
                 >
                   <div
-                    class="text-center w-100 fw-bold rounded-5 py-1 page-btn"
+                    class="text-center w-100 fw-bold rounded-5 mt-4 py-1 page-btn-mars"
                   >
                     Know More
                   </div>
                 </a>
               </div>
-            </div>
-          </div>
-        </div>
 
-        <!--Jupiter-->
-        <div class="popup__bg-prsn-6">
-          <div class="popup-prsn-6 rounded-bottom rounded-top my-bg-dark mb-5">
-            <!-- Button Close -->
-            <div class="my-btn-close">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="32"
-                fill="currentColor"
-                class="bi bi-x close-popup-prsn-6"
-                viewBox="0 0 16 16"
+              <!--UP-->
+              <div
+                class="col-md-5 col-12 text-center border rounded-5 pt-5 pb-4 bg-light sm-shadow"
               >
-                <path
-                  d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
-                />
-              </svg>
-            </div>
+                <!--Image-->
+                <a href="" class="grow-planet open-popup-prsn-6">
+                  <img
+                    src="./images/jupiter.png"
+                    alt=""
+                    class="sun-move w-50"
+                  />
+                </a>
 
-            <!--Card-->
-            <div class="container p-5 rounded-5 bg-up-hdn">
-              <!--Text-->
-              <div class="container">
-                <!--Main-->
-                <div class="h1 lang text-center fw-bold" key="jupiter">
-                  Jupiter
-                </div>
-
-                <!--Basic-->
-                <div class="text-center mb-3 fw-bold">
+                <!--Body-->
+                <div class="mt-5 fw-bold">
                   Jupiter is the largest planet in the solar system, a gas
                   giant. Its equatorial radius is 71.4 thousand km, which is
                   11.2 times the radius of the Earth. Jupiter is the only planet
@@ -476,101 +1033,61 @@
                   about 7% of the solar radius from it.
                 </div>
 
+                <!--Link-->
                 <a
-                  href="./HTML Sun system/jupiter.html"
-                  class="text-decoration-none page-btn"
+                  href="./HTML Sun system/sun.html"
+                  class="text-decoration-none page-btn-up"
                   target="_blank"
                 >
                   <div
-                    class="text-center w-100 fw-bold rounded-5 py-1 page-btn"
+                    class="text-center w-100 fw-bold rounded-5 mt-4 py-1 page-btn-up"
                   >
                     Know More
                   </div>
                 </a>
               </div>
-            </div>
-          </div>
-        </div>
 
-        <!--Saturn-->
-        <div class="popup__bg-prsn-7">
-          <div class="popup-prsn-7 rounded-bottom rounded-top my-bg-dark mb-5">
-            <!-- Button Close -->
-            <div class="my-btn-close">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="32"
-                fill="currentColor"
-                class="bi bi-x close-popup-prsn-7"
-                viewBox="0 0 16 16"
+              <!--SAT-->
+              <div
+                class="col-md-5 col-12 text-center border rounded-5 pt-5 pb-4 bg-light sm-shadow"
               >
-                <path
-                  d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
-                />
-              </svg>
-            </div>
+                <!--Image-->
+                <a href="" class="grow-planet open-popup-prsn-7">
+                  <img src="./images/saturn.png" alt="" class="sun-move w-50" />
+                </a>
 
-            <!--Card-->
-            <div class="container p-5 rounded-5 bg-sat-hdn">
-              <!--Text-->
-              <div class="container">
-                <!--Main-->
-                <div class="h1 lang text-center fw-bold" key="saturn">
-                  Saturn
-                </div>
-
-                <!--Basic-->
-                <div class="text-center mb-3 fw-bold">
+                <!--Body-->
+                <div class="mt-5 fw-bold">
                   Saturn has a prominent ring system, consisting mainly of ice
                   particles, a smaller amount of heavy elements and dust. There
                   are currently 83 known satellites orbiting the planet.
                 </div>
 
+                <!--Link-->
                 <a
-                  href="./HTML Sun system/saturn.html"
-                  class="text-decoration-none page-btn"
+                  href="./HTML Sun system/sun.html"
+                  class="text-decoration-none page-btn-sat"
                   target="_blank"
                 >
                   <div
-                    class="text-center w-100 fw-bold rounded-5 py-1 page-btn"
+                    class="text-center w-100 fw-bold rounded-5 mt-4 py-1 page-btn-sat bs"
                   >
                     Know More
                   </div>
                 </a>
               </div>
-            </div>
-          </div>
-        </div>
 
-        <!--Uranus-->
-        <div class="popup__bg-prsn-8">
-          <div class="popup-prsn-8 rounded-bottom rounded-top my-bg-dark mb-5">
-            <!-- Button Close -->
-            <div class="my-btn-close">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="32"
-                fill="currentColor"
-                class="bi bi-x close-popup-prsn-8"
-                viewBox="0 0 16 16"
+              <!--UR-->
+              <div
+                class="col-md-5 col-12 text-center border rounded-5 pt-5 pb-4 bg-light sm-shadow"
               >
-                <path
-                  d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
-                />
-              </svg>
-            </div>
+                <!--Image-->
+                <a href="" class="grow-planet open-popup-prsn-8">
+                  <img src="./images/uranus.png" alt="" class="sun-move w-50" />
+                </a>
 
-            <!--Card-->
-            <div class="container p-5 rounded-5 bg-ur-hdn">
-              <!--Text-->
-              <div class="container">
-                <!--Main-->
-                <div class="h1 lang text-center fw-bold" key="uranus">
-                  Uranus
-                </div>
-
-                <!--Basic-->
-                <div class="text-center mb-3 fw-bold">
+                <!--Body-->
+                <div class="mt-5 fw-bold">
                   It is the coldest planetary atmosphere in the solar system,
                   with a minimum temperature of 49 K (-224 °C). It is believed
                   that Uranus has a complex layered structure of clouds, where
@@ -578,64 +1095,49 @@
                   of Uranus consist mainly of ice and rocks.
                 </div>
 
+                <!--Link-->
                 <a
-                  href="./HTML Sun system/uranus.html"
-                  class="text-decoration-none page-btn"
+                  href="./HTML Sun system/sun.html"
+                  class="text-decoration-none page-btn-ur"
                   target="_blank"
                 >
                   <div
-                    class="text-center w-100 fw-bold rounded-5 py-1 page-btn"
+                    class="text-center w-100 fw-bold rounded-5 mt-4 py-1 page-btn-ur"
                   >
                     Know More
                   </div>
                 </a>
               </div>
-            </div>
-          </div>
-        </div>
 
-        <!--Neptune-->
-        <div class="popup__bg-prsn-9">
-          <div class="popup-prsn-9 rounded-bottom rounded-top my-bg-dark mb-5">
-            <!-- Button Close -->
-            <div class="my-btn-close">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="32"
-                fill="currentColor"
-                class="bi bi-x close-popup-prsn-9"
-                viewBox="0 0 16 16"
+              <!--NEP-->
+              <div
+                class="col-md-5 col-12 text-center border rounded-5 pt-5 pb-4 bg-light sm-shadow"
               >
-                <path
-                  d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
-                />
-              </svg>
-            </div>
+                <!--Image-->
+                <a href="" class="grow-planet open-popup-prsn-9">
+                  <img
+                    src="./images/neptune.png"
+                    alt=""
+                    class="sun-move w-50"
+                  />
+                </a>
 
-            <!--Card-->
-            <div class="container p-5 rounded-5 bg-nep-hdn">
-              <!--Text-->
-              <div class="container">
-                <!--Main-->
-                <div class="h1 lang text-center fw-bold" key="neptune">
-                  Neptune
-                </div>
-
-                <!--Basic-->
-                <div class="text-center mb-3 fw-bold">
+                <!--Body-->
+                <div class="mt-5 fw-bold">
                   Neptune is known as the eighth and farthest planet from the
                   Sun, which cannot be observed with the naked eye from Earth.
                   This distant blue planet has faint rings, numerous moons and
                   no solid surface.
                 </div>
 
+                <!--Link-->
                 <a
-                  href="./HTML Sun system/neptune.html"
-                  class="text-decoration-none page-btn"
+                  href="./HTML Sun system/sun.html"
+                  class="text-decoration-none page-btn-nep"
                   target="_blank"
                 >
                   <div
-                    class="text-center w-100 fw-bold rounded-5 py-1 page-btn"
+                    class="text-center w-100 fw-bold rounded-5 mt-4 py-1 page-btn-nep b"
                   >
                     Know More
                   </div>
@@ -644,741 +1146,585 @@
             </div>
           </div>
         </div>
-      </div>
-
-      <!-------------------------------------------------------------------------------------------------->
-
-      <!--SUN'S SYSTEM-->
-      <div class="d-none d-xxl-block">
-        <div class="system-div">
-          <!-- black hole  -->
-          <div class="rounded-circle">
-            <a href=""
-              ><img
-                src="./images/icons8-black-hole-96.png"
-                alt="#"
-                width="50px"
-                class="aster_11 grow-planet"
-            /></a>
-          </div>
-          <!--SUN-->
-          <div class="sun grow">
-            <a href="" class="rounded-circle open-popup-prsn-1">
-              <img
-                src="./images/sun.png"
-                alt=""
-                class="rounded-circle sun sun-move sun-w"
-              />
-            </a>
-          </div>
-
-          <!--MERC-->
-          <div class="rounded-circle main-merc">
-            <div href="" class="merc rounded-circle">
-              <a href="" class="open-popup-prsn-2">
-                <img
-                  src="./images/mercury.png"
-                  alt=""
-                  class="rounded-circle grow-planet"
-                  width="50px"
-                />
-              </a>
-
-              <a href="">
-                <img
-                  src="./images/icons8-научная-фантастика-96.png"
-                  alt=""
-                  width="30px"
-                  class="alien grow-planet"
-                />
-              </a>
-              <!-- </div> -->
-            </div>
-          </div>
-
-          <!--VEN-->
-
-          <div class="rounded-circle main-ven">
-            <div href="" class="ven rounded-circle">
-              <a href="" class="open-popup-prsn-3">
-                <img
-                  src="./images/venus.png"
-                  alt=""
-                  class="rounded-circle grow-planet"
-                  width="60px"
-                />
-              </a>
-              <a href="">
-                <img
-                  src="./images/icons8-спутник-96.png"
-                  alt=""
-                  width="30px"
-                  class="sputnik grow-planet"
-                />
-              </a>
-            </div>
-          </div>
-
-          <!--EARTH-->
-          <div class="rounded-circle main-earth">
-            <div href="" class="earth rounded-circle">
-              <a href="" class="open-popup-prsn-4">
-                <img
-                  src="./images/planet-earth.png"
-                  alt=""
-                  class="rounded-circle grow-planet"
-                  width="60px"
-                />
-              </a>
-
-              <a href="">
-                <img
-                  src="./images/icons8-луна-96.png"
-                  alt=""
-                  width="30px"
-                  class="moon grow-planet"
-                />
-              </a>
-            </div>
-          </div>
-
-          <!--MARS-->
-          <div class="rounded-circle main-mars">
-            <div href="" class="mars rounded-circle">
-              <a href="" class="open-popup-prsn-5">
-                <img
-                  src="./images/mars.png"
-                  alt=""
-                  class="rounded-circle grow-planet"
-                  width="55px"
-                />
-              </a>
-              <a href="">
-                <img
-                  src="./images/icons8-ракета-96.png"
-                  alt=""
-                  width="30px"
-                  class="sputnik grow-planet"
-                />
-              </a>
-            </div>
-          </div>
-
-          <!--UP-->
-          <div class="rounded-circle main-up">
-            <div href="" class="up rounded-circle">
-              <a href="" class="grow-planet open-popup-prsn-6">
-                <img
-                  src="./images/jupiter.png"
-                  alt=""
-                  class="rounded-circle grow-planet"
-                  width="100px"
-                />
-              </a>
-              <a href="">
-                <img
-                  src="./images/icons8-meteor-50.png"
-                  alt=""
-                  width="30px"
-                  class="sputnik2 grow-planet"
-                />
-              </a>
-            </div>
-          </div>
-
-          <!--SAT-->
-          <div class="rounded-circle main-sat">
-            <div href="" class="sat rounded-circle">
-              <a href="" class="open-popup-prsn-7">
-                <img
-                  src="./images/saturn.png"
-                  alt=""
-                  class="rounded-circle grow-planet"
-                  width="100px"
-                />
-              </a>
-              <a href="">
-                <img
-                  src="./images/icons8-комета-96.png"
-                  alt=""
-                  width="30px"
-                  class="sputnik3 grow-planet"
-                />
-              </a>
-            </div>
-          </div>
-          <!--UR-->
-          <div class="rounded-circle main-ur col-sm-5">
-            <a href="" class="ur grow-planet rounded-circle open-popup-prsn-8">
-              <img
-                src="./images/uranus.png"
-                alt=""
-                class="rounded-circle"
-                width="70px"
-              />
-            </a>
-          </div>
-
-          <!--NEP-->
-          <div class="rounded-circle main-nep">
-            <div href="" class="nep rounded-circle">
-              <a href="" class="open-popup-prsn-9">
-                <img
-                  src="./images/neptune.png"
-                  alt=""
-                  class="rounded-circle grow-planet"
-                  width="60px"
-                />
-              </a>
-              <a href="">
-                <img
-                  src="./images/icons8-вифлеемская-звезда-96.png"
-                  alt=""
-                  width="30px"
-                  class="sputnik grow-planet"
-                />
-              </a>
-            </div>
-          </div>
+        <div class="d-flex justify-content-center" id="stories">
+          <div
+            class="container row justify-content-center p-3 my-bg-dark rounded-4 mb-5 navbar-shadow"
+          ></div>
         </div>
-      </div>
 
-      <!--SUN'S SYSTEM-SM-->
-      <div class="d-block d-xxl-none">
-        <div class="d-flex justify-content-center container">
-          <div class="container row justify-content-between gy-5">
-            <!--SUN-->
-            <div
-              class="col-12 text-center border rounded-5 pt-5 pb-4 bg-light sm-shadow"
-            >
-              <!--Image-->
-              <a class="">
-                <img src="./images/sun.png" alt="" class="sun-move w-50" />
-              </a>
-
-              <!--Body-->
-              <div class="mt-5 fw-bold">
-                The sun - the central body of the solar system - is a hot ball
-                of gas. It is 750 times more massive than all other bodies in
-                the solar system combined. That is why everything in the solar
-                system can be roughly considered to revolve around the sun. The
-                sun outweighs the earth 330,000 times.
-              </div>
-
-              <!--Link-->
-              <a
-                href="./HTML Sun system/sun.html"
-                class="text-decoration-none page-btn-sun"
-                target="_blank"
-              >
-                <div
-                  class="text-center w-100 fw-bold rounded-5 py-1 mt-4 page-btn-sun mt-auto"
-                >
-                  Know More
-                </div>
-              </a>
+        <!-- carousel -->
+        <div class="carousel opacity-80 rounded-pill">
+          <div
+            id="myCarousel"
+            class="carousel Slide m-0"
+            data-bs-ride="carousel"
+          >
+            <!--Indicators-->
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#myCarousel"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#myCarousel"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#myCarousel"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
             </div>
 
-            <!--MERC-->
-            <div
-              class="col-md-5 col-12 text-center border rounded-5 pt-5 pb-4 bg-light sm-shadow"
-            >
-              <!--Image-->
-              <a href="" class="grow-planet open-popup-prsn-2">
-                <img src="./images/mercury.png" alt="" class="sun-move w-50" />
-              </a>
-
-              <!--Body-->
-              <div class="mt-5 fw-bold">
-                Mercury is a "fast-footed" planet. It rushes around the Sun at a
-                speed of about 172 km / h, 3 times faster than the Earth. That
-                is why the planet was named Mercury - in honor of the ancient
-                Roman god of trade, famous for his speed and tirelessness - he
-                did not sleep day or night.
-              </div>
-
-              <!--Link-->
-              <a
-                href="./HTML Sun system/sun.html"
-                class="text-decoration-none page-btn-merc"
-                target="_blank"
-              >
-                <div
-                  class="text-center w-100 fw-bold rounded-5 mt-4 py-1 page-btn-merc"
+            <!--Content-->
+            <div class="carousel-inner bg-crsl">
+              <!--#1-->
+              <div class="carousel-item active">
+                <svg
+                  class="bd-placeholder-img"
+                  width="100%"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                  preserveAspectRatio="xMidYMid slice"
+                  focusable="false"
                 >
-                  Know More
-                </div>
-              </a>
-            </div>
+                  <rect width="100%" height="100%" fill="#5f1e7b00" />
+                </svg>
 
-            <!--VEN-->
-            <div
-              class="col-md-5 col-12 text-center border rounded-5 pt-5 pb-4 bg-light sm-shadow"
-            >
-              <!--Image-->
-              <a href="" class="grow-planet open-popup-prsn-3">
-                <img src="./images/venus.png" alt="" class="sun-move w-50" />
-              </a>
+                <div class="container">
+                  <div class="carousel-caption d-flex flex-column gap-3">
+                    <div class="footer">
+                      <div class="fw-bold">
+                        Do you want to check your knowledge of space
+                        environment?
+                      </div>
 
-              <!--Body-->
-              <div class="mt-5 fw-bold">
-                The atmosphere of Venus, the densest among the Earth-like
-                planets, consists mainly of carbon dioxide. The surface of the
-                planet is completely hidden by clouds of sulfuric acid, opaque
-                in visible light.
-              </div>
-
-              <!--Link-->
-              <a
-                href="./HTML Sun system/sun.html"
-                class="text-decoration-none page-btn-ven b"
-                target="_blank"
-              >
-                <div
-                  class="text-center w-100 fw-bold rounded-5 mt-4 py-1 page-btn-ven"
-                >
-                  Know More
-                </div>
-              </a>
-            </div>
-
-            <!--EARTH-->
-            <div
-              class="col-md-5 col-12 text-center border rounded-5 pt-5 pb-4 bg-light sm-shadow"
-            >
-              <!--Image-->
-              <a href="" class="grow-planet open-popup-prsn-4">
-                <img
-                  src="./images/planet-earth.png"
-                  alt=""
-                  class="sun-move w-50"
-                />
-              </a>
-
-              <!--Body-->
-              <div class="mt-5 fw-bold">
-                Earth is a unique, diverse planet. There are continents and
-                oceans, large plains and high mountains, huge forests and desert
-                areas, the largest cities and uninhabited areas of the earth's
-                surface.
-              </div>
-
-              <!--Link-->
-              <a
-                href="./HTML Sun system/sun.html"
-                class="text-decoration-none page-btn-earth"
-                target="_blank"
-              >
-                <div
-                  class="text-center w-100 fw-bold rounded-5 mt-4 py-1 page-btn-earth b"
-                >
-                  Know More
-                </div>
-              </a>
-            </div>
-
-            <!--MARS-->
-            <div
-              class="col-md-5 col-12 text-center border rounded-5 pt-5 pb-4 bg-light sm-shadow"
-            >
-              <!--Image-->
-              <a href="" class="grow-planet open-popup-prsn-5">
-                <img src="./images/mars.png" alt="" class="sun-move w-50" />
-              </a>
-
-              <!--Body-->
-              <div class="mt-5 fw-bold">
-                Mars is a terrestrial planet with a rarefied atmosphere (the
-                pressure on the surface is 160 times less than that of the
-                earth). The features of the surface relief of Mars can be
-                considered impact craters like those of the moon, as well as
-                volcanoes, valleys, deserts and polar ice caps like those of the
-                earth
-              </div>
-
-              <!--Link-->
-              <a
-                href="./HTML Sun system/sun.html"
-                class="text-decoration-none page-btn-mars"
-                target="_blank"
-              >
-                <div
-                  class="text-center w-100 fw-bold rounded-5 mt-4 py-1 page-btn-mars"
-                >
-                  Know More
-                </div>
-              </a>
-            </div>
-
-            <!--UP-->
-            <div
-              class="col-md-5 col-12 text-center border rounded-5 pt-5 pb-4 bg-light sm-shadow"
-            >
-              <!--Image-->
-              <a href="" class="grow-planet open-popup-prsn-6">
-                <img src="./images/jupiter.png" alt="" class="sun-move w-50" />
-              </a>
-
-              <!--Body-->
-              <div class="mt-5 fw-bold">
-                Jupiter is the largest planet in the solar system, a gas giant.
-                Its equatorial radius is 71.4 thousand km, which is 11.2 times
-                the radius of the Earth. Jupiter is the only planet whose center
-                of mass with the Sun is outside the Sun and is about 7% of the
-                solar radius from it.
-              </div>
-
-              <!--Link-->
-              <a
-                href="./HTML Sun system/sun.html"
-                class="text-decoration-none page-btn-up"
-                target="_blank"
-              >
-                <div
-                  class="text-center w-100 fw-bold rounded-5 mt-4 py-1 page-btn-up"
-                >
-                  Know More
-                </div>
-              </a>
-            </div>
-
-            <!--SAT-->
-            <div
-              class="col-md-5 col-12 text-center border rounded-5 pt-5 pb-4 bg-light sm-shadow"
-            >
-              <!--Image-->
-              <a href="" class="grow-planet open-popup-prsn-7">
-                <img src="./images/saturn.png" alt="" class="sun-move w-50" />
-              </a>
-
-              <!--Body-->
-              <div class="mt-5 fw-bold">
-                Saturn has a prominent ring system, consisting mainly of ice
-                particles, a smaller amount of heavy elements and dust. There
-                are currently 83 known satellites orbiting the planet.
-              </div>
-
-              <!--Link-->
-              <a
-                href="./HTML Sun system/sun.html"
-                class="text-decoration-none page-btn-sat"
-                target="_blank"
-              >
-                <div
-                  class="text-center w-100 fw-bold rounded-5 mt-4 py-1 page-btn-sat bs"
-                >
-                  Know More
-                </div>
-              </a>
-            </div>
-
-            <!--UR-->
-            <div
-              class="col-md-5 col-12 text-center border rounded-5 pt-5 pb-4 bg-light sm-shadow"
-            >
-              <!--Image-->
-              <a href="" class="grow-planet open-popup-prsn-8">
-                <img src="./images/uranus.png" alt="" class="sun-move w-50" />
-              </a>
-
-              <!--Body-->
-              <div class="mt-5 fw-bold">
-                It is the coldest planetary atmosphere in the solar system, with
-                a minimum temperature of 49 K (-224 °C). It is believed that
-                Uranus has a complex layered structure of clouds, where water is
-                the bottom layer, and methane is the top. The bowels of Uranus
-                consist mainly of ice and rocks.
-              </div>
-
-              <!--Link-->
-              <a
-                href="./HTML Sun system/sun.html"
-                class="text-decoration-none page-btn-ur"
-                target="_blank"
-              >
-                <div
-                  class="text-center w-100 fw-bold rounded-5 mt-4 py-1 page-btn-ur"
-                >
-                  Know More
-                </div>
-              </a>
-            </div>
-
-            <!--NEP-->
-            <div
-              class="col-md-5 col-12 text-center border rounded-5 pt-5 pb-4 bg-light sm-shadow"
-            >
-              <!--Image-->
-              <a href="" class="grow-planet open-popup-prsn-9">
-                <img src="./images/neptune.png" alt="" class="sun-move w-50" />
-              </a>
-
-              <!--Body-->
-              <div class="mt-5 fw-bold">
-                Neptune is known as the eighth and farthest planet from the Sun,
-                which cannot be observed with the naked eye from Earth. This
-                distant blue planet has faint rings, numerous moons and no solid
-                surface.
-              </div>
-
-              <!--Link-->
-              <a
-                href="./HTML Sun system/sun.html"
-                class="text-decoration-none page-btn-nep"
-                target="_blank"
-              >
-                <div
-                  class="text-center w-100 fw-bold rounded-5 mt-4 py-1 page-btn-nep b"
-                >
-                  Know More
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- carousel -->
-      <div class="carousel opacity-80">
-        <div id="myCarousel" class="carousel Slide m-0" data-bs-ride="carousel">
-          <!--Indicators-->
-          <div class="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#myCarousel"
-              data-bs-slide-to="0"
-              class="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#myCarousel"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#myCarousel"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"
-            ></button>
-          </div>
-
-          <!--Content-->
-          <div class="carousel-inner bg-crsl">
-            <!--#1-->
-            <div class="carousel-item active">
-              <svg
-                class="bd-placeholder-img"
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true"
-                preserveAspectRatio="xMidYMid slice"
-                focusable="false"
-              >
-                <rect width="100%" height="100%" fill="#5f1e7b00" />
-              </svg>
-
-              <div class="container">
-                <div class="carousel-caption d-flex flex-column gap-3">
-                  <div class="footer">
-                    <div class="fw-bold">
-                      Do you want to check your knowledge of space environment?
+                      This test will show you your quality of knowing space and
+                      its history.
                     </div>
 
-                    This test will show you your quality of knowing space and
-                    its history.
+                    <div class="text-center mb-2">
+                      <a
+                        class="text-decoration-none py-1 px-5 rounded-5 crsl-btn"
+                        href="./quiz-index.html"
+                      >
+                        Check up now
+                      </a>
+                    </div>
                   </div>
+                </div>
+              </div>
 
-                  <div class="text-center mb-2">
-                    <a
-                      class="text-decoration-none py-1 px-5 rounded-5 crsl-btn"
-                      href="./quiz-index.html"
-                    >
-                      Check up now
-                    </a>
+              <!--#2-->
+              <div class="carousel-item">
+                <svg
+                  class="bd-placeholder-img"
+                  width="100%"
+                  height="100%"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                  preserveAspectRatio="xMidYMid slice"
+                  focusable="false"
+                >
+                  <rect width="100%" height="100%" fill="#5f1e7b00" />
+                </svg>
+
+                <div class="container">
+                  <div class="carousel-caption d-flex flex-column gap-3">
+                    <div class="footer">
+                      Do you know which creature can survive in any environment?
+                      I create a Super Hero,based on scientific research. It can
+                      live and develop in any environment.
+                    </div>
+
+                    <div class="mb-2">
+                      <a
+                        class="text-decoration-none py-1 px-5 footer rounded-5 crsl-btn"
+                        href="./hero.html"
+                      >
+                        Learn more about this creature
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--#3-->
+              <div class="carousel-item">
+                <svg
+                  class="bd-placeholder-img"
+                  width="100%"
+                  height="100%"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                  preserveAspectRatio="xMidYMid slice"
+                  focusable="false"
+                >
+                  <rect width="100%" height="100%" fill="#5f1e7b00" />
+                </svg>
+
+                <div class="container">
+                  <div class="carousel-caption d-flex flex-column gap-3">
+                    <div class="footer">
+                      Some information about authors of this web-site. I named
+                      my team Mole-Hole,do you want to know what it means? Also
+                      here you can write your comments,wishes and what we must
+                      develop on our web-site.
+                    </div>
+
+                    <div class="mb-2">
+                      <a
+                        class="text-decoration-none py-1 px-5 rounded-5 crsl-btn"
+                        href="./information.index.html"
+                      >
+                        About us
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <!--#2-->
-            <div class="carousel-item">
-              <svg
-                class="bd-placeholder-img"
-                width="100%"
-                height="100%"
-                xmlns="http://www.w3.org/2000/svg"
+            <!--Prev & Next-->
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#myCarousel"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
                 aria-hidden="true"
-                preserveAspectRatio="xMidYMid slice"
-                focusable="false"
-              >
-                <rect width="100%" height="100%" fill="#5f1e7b00" />
-              </svg>
-
-              <div class="container">
-                <div class="carousel-caption d-flex flex-column gap-3">
-                  <div class="footer">
-                    Do you know which creature can survive in any environment? I
-                    create a Super Hero,based on scientific research. It can
-                    live and develop in any environment.
-                  </div>
-
-                  <div class="mb-2">
-                    <a
-                      class="text-decoration-none py-1 px-5 footer rounded-5 crsl-btn"
-                      href="./hero.html"
-                    >
-                      Learn more about this creature
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!--#3-->
-            <div class="carousel-item">
-              <svg
-                class="bd-placeholder-img"
-                width="100%"
-                height="100%"
-                xmlns="http://www.w3.org/2000/svg"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#myCarousel"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
                 aria-hidden="true"
-                preserveAspectRatio="xMidYMid slice"
-                focusable="false"
-              >
-                <rect width="100%" height="100%" fill="#5f1e7b00" />
-              </svg>
-
-              <div class="container">
-                <div class="carousel-caption d-flex flex-column gap-3">
-                  <div class="footer">
-                    Some information about authors of this web-site. I named my
-                    team Mole-Hole,do you want to know what it means? Also here
-                    you can write your comments,wishes and what we must develop
-                    on our web-site.
-                  </div>
-
-                  <div class="mb-2">
-                    <a
-                      class="text-decoration-none py-1 px-5 rounded-5 crsl-btn"
-                      href="./information.index.html"
-                    >
-                      About us
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!--Prev & Next-->
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#myCarousel"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#myCarousel"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </div>
-
-      <!--Footer-->
-      <div class="d-none d-xxl-block p-0">
-        <div
-          class="d-flex justify-content-center footer bg-black_ m-0 pt-5 pb-2"
-        >
-          <div
-            class="container row justify-content-between text-center position-relative"
-          >
-            <!--Hero-->
-            <div class="col-5 mt-3">
-              <div class="sun-move">
-                <a href="./hero.html" class="ball" target="_blank">
-                  <img src="./images/Ресурс 1@2x.png" class="w-25 ball" />
-                </a>
-              </div>
-
-              <div class="col-5 fw-bold h5 text-warning mt-5 text-center w-100">
-                Hero
-              </div>
-            </div>
-
-            <!--Test-->
-            <div class="col-5">
-              <div class="sun-move">
-                <a href="./quiz-index.html" class="ball" target="_blank">
-                  <img src="./images/game-controller.png" class="w-25 ball" />
-                </a>
-              </div>
-
-              <div class="col-5 fw-bold h5 text-warning mt-5 text-center w-100">
-                Test
-              </div>
-            </div>
-
-            <!-- Main Text -->
-            <div class="fw-bold text-center text-info h3 mt-3 pb-2">
-              <span class="text-white fw-normal">Created by</span>
-              Mole Hole
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!--Footer-SM-->
-      <div class="d-block d-xxl-none p-0">
-        <div
-          class="d-flex justify-content-center footer bg-black_ pt-5 pb-2 m-0 position-relative"
-        >
-          <div class="container row justify-content-between text-center">
-            <!--Hero-->
-            <div class="col-5 mt-3">
-              <div class="sun-move">
-                <a href="./hero.html" class="ball" target="_blank">
-                  <img src="./images/Ресурс 1@2x.png" class="ball w-50" />
-                </a>
-              </div>
-
-              <div class="col-5 fw-bold h5 text-warning mt-5 text-center w-100">
-                Hero
-              </div>
-            </div>
-
-            <!--Test-->
-            <div class="col-5">
-              <div class="sun-move">
-                <a href="./quiz-index.html" target="_blank" class="ball">
-                  <img src="./images/game-controller.png" class="ball w-50" />
-                </a>
-              </div>
-
-              <div class="col-5 fw-bold h5 text-warning mt-5 text-center w-100">
-                Test
-              </div>
-            </div>
-
-            <!-- Main Text -->
-            <div class="fw-bold text-center text-info h3 mt-3 pb-2">
-              <span class="text-white fw-normal">Created by</span>
-              Mole Hole
-            </div>
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
         </div>
       </div>
     </div>
+    <div class="p-0 fw-bold">
+      <!--Accordion-->
+      <!--0-->
+      <button
+        class="accordion acc lang fw-bold"
+        data-name="accordion-title"
+        key=""
+      >
+        <img
+          src="./images/icons8-black-hole-96.png"
+          style="width: 40px"
+          alt=""
+        />
+        Black Hole
+      </button>
+      <!--Panel-->
+      <div class="panel">
+        <p class="my-3 px-3">
+          A black hole is a region of spacetime where gravity is so strong that
+          nothing, including light or other electromagnetic waves, has enough
+          energy to escape it. The theory of general relativity predicts that a
+          sufficiently compact mass can deform spacetime to form a black hole.In
+          many ways, a black hole acts like an ideal black body, as it reflects
+          no light.Moreover, quantum field theory in curved spacetime predicts
+          that event horizons emit Hawking radiation, with the same spectrum as
+          a black body of a temperature inversely proportional to its mass.
+          <br />
+          <a
+            href="./HTML Sun system/black-hole.html"
+            class="text-decoration-none link-warning"
+            >Learn more...</a
+          >
+        </p>
+      </div>
+      <!-- 1 -->
+      <button
+        class="accordion acc lang fw-bold"
+        data-name="accordion-title"
+        key=""
+      >
+        <img src="./images/sun.png" style="width: 40px" alt="" />
+        Sun
+      </button>
+      <!--Panel-->
+      <div class="panel">
+        <p class="my-3 px-3">
+          The sun - the central body of the solar system - is a hot ball of gas.
+          It is 750 times more massive than all other bodies in the solar system
+          combined. That is why everything in the solar system can be roughly
+          considered to revolve around the sun. The sun outweighs the earth
+          330,000 times. <br />
+          <a
+            href="./HTML Sun system/sun.html"
+            class="text-decoration-none link-warning"
+            >Learn more...</a
+          >
+        </p>
+      </div>
+
+      <!--2-->
+      <button
+        class="accordion acc lang fw-bold"
+        data-name="accordion-title"
+        key=""
+      >
+        <img src="./images/mercury.png" style="width: 40px" alt="" />
+        Mercury
+      </button>
+      <!--Panel-->
+      <div class="panel">
+        <p class="my-3 px-3">
+          Mercury is a "fast-footed" planet. It rushes around the Sun at a speed
+          of about 172 km / h, 3 times faster than the Earth. That is why the
+          planet was named Mercury - in honor of the ancient Roman god of trade,
+          famous for his speed and tirelessness - he did not sleep day or night.
+          <br />
+          <a
+            href="./HTML Sun system/mercury.html"
+            class="text-decoration-none link-warning"
+            >Learn more...</a
+          >
+        </p>
+      </div>
+
+      <!--3-->
+      <button
+        class="accordion acc lang fw-bold"
+        data-name="accordion-title"
+        key=""
+      >
+        <img src="./images/venus.png" style="width: 40px" alt="" />
+        Venus
+      </button>
+      <!--Panel-->
+      <div class="panel">
+        <p class="my-3 px-3">
+          The atmosphere of Venus, the densest among the Earth-like planets,
+          consists mainly of carbon dioxide. The surface of the planet is
+          completely hidden by clouds of sulfuric acid, opaque in visible light.
+          <br />
+          <a
+            href="./HTML Sun system/venus.html"
+            class="text-decoration-none link-warning"
+            >Learn more...</a
+          >
+        </p>
+      </div>
+
+      <!--4-->
+      <button
+        class="accordion acc lang fw-bold"
+        data-name="accordion-title"
+        key=""
+      >
+        <img src="./images/planet-earth.png" style="width: 40px" alt="" />
+        Earth
+      </button>
+      <!--Panel-->
+      <div class="panel">
+        <p class="my-3 px-3">
+          Earth is a unique, diverse planet. There are continents and oceans,
+          large plains and high mountains, huge forests and desert areas, the
+          largest cities and uninhabited areas of the earth's surface. <br />
+          <a
+            href="./HTML Sun system/earth.html"
+            class="text-decoration-none link-warning"
+            >Learn more...</a
+          >
+        </p>
+      </div>
+
+      <!--5-->
+      <button
+        class="accordion acc lang fw-bold"
+        data-name="accordion-title"
+        key=""
+      >
+        <img src="./images/mars.png" style="width: 40px" alt="" /> Mars
+      </button>
+      <!--Panel-->
+      <div class="panel">
+        <p class="my-3 px-3">
+          Mars is a terrestrial planet with a rarefied atmosphere (the pressure
+          on the surface is 160 times less than that of the earth). The features
+          of the surface relief of Mars can be considered impact craters like
+          those of the moon, as well as volcanoes, valleys, deserts and polar
+          ice caps like those of the earth. <br /><a
+            href="./HTML Sun system/mars.html"
+            class="text-decoration-none link-warning"
+            >Learn more...</a
+          >
+        </p>
+      </div>
+
+      <!--6-->
+      <button
+        class="accordion acc lang fw-bold"
+        data-name="accordion-title"
+        key=""
+      >
+        <img src="./images/jupiter.png" style="width: 40px" alt="" /> Jupiter
+      </button>
+      <!--Panel-->
+      <div class="panel">
+        <p class="my-3 px-3">
+          Jupiter is the largest planet in the solar system, a gas giant. Its
+          equatorial radius is 71.4 thousand km, which is 11.2 times the radius
+          of the Earth. Jupiter is the only planet whose center of mass with the
+          Sun is outside the Sun and is about 7% of the solar radius from it.
+          <br />
+          <a
+            href="./HTML Sun system/jupiter.html"
+            class="text-decoration-none link-warning"
+            >Learn more...</a
+          >
+        </p>
+      </div>
+
+      <!--7-->
+      <button
+        class="accordion acc lang fw-bold"
+        data-name="accordion-title"
+        key=""
+      >
+        <img src="./images/saturn.png" style="width: 40px" alt="" /> Saturn
+      </button>
+      <!--Panel-->
+      <div class="panel">
+        <p class="my-3 px-3">
+          Saturn has a prominent ring system, consisting mainly of ice
+          particles, a smaller amount of heavy elements and dust. There are
+          currently 83 known satellites orbiting the planet <br />
+          <a
+            href="./HTML Sun system/saturn.html"
+            class="text-decoration-none link-warning"
+            >Learn more...</a
+          >
+        </p>
+      </div>
+
+      <!--8-->
+      <button
+        class="accordion acc lang fw-bold"
+        data-name="accordion-title"
+        key=""
+      >
+        <img src="./images/uranus.png" style="width: 40px" alt="" /> Uranus
+      </button>
+      <!--Panel-->
+      <div class="panel">
+        <p class="my-3 px-3">
+          It is the coldest planetary atmosphere in the solar system, with a
+          minimum temperature of 49 K (-224 °C). It is believed that Uranus has
+          a complex layered structure of clouds, where water is the bottom
+          layer, and methane is the top. The bowels of Uranus consist mainly of
+          ice and rocks. <br />
+          <a
+            href="./HTML Sun system/uranus.html"
+            class="text-decoration-none link-warning"
+            >Learn more..</a
+          >
+        </p>
+      </div>
+
+      <!--9-->
+      <button
+        class="accordion acc lang fw-bold"
+        data-name="accordion-title"
+        key=""
+      >
+        <img src="./images/neptune.png" style="width: 40px" alt="" /> Neptune
+      </button>
+      <!--Panel-->
+      <div class="panel">
+        <p class="my-3 px-3">
+          Neptune is known as the eighth and farthest planet from the Sun, which
+          cannot be observed with the naked eye from Earth. This distant blue
+          planet has faint rings, numerous moons and no solid surface.<br />
+          <a
+            href="./HTML Sun system/neptune.html"
+            class="text-decoration-none link-warning"
+            >Learn more...</a
+          >
+        </p>
+      </div>
+    </div>
+    <!-- fall out images -->
+    <div id="sate" class="d-flex row">
+      <div class="col col-sm-3">
+        <div class="fall-item fall-effect">
+          <img src="./images/sputnik.jpg" />
+          <div class="mask">
+            <h2>Satellites</h2>
+
+            <p>
+              A satellite or artificial satellite is an object intentionally
+              placed into orbit in outer space. Except for passive satellites,
+              most satellites have , such as solar panels or radioisotope
+              thermoelectric generators (RTGs).
+            </p>
+            <a href="#" class="btn btn-default">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-sm-3">
+        <div class="fall-item fall-effect">
+          <img src="./images/moonrover.webp" />
+          <div class="mask">
+            <h2>Moon rover</h2>
+            <p>
+              A lunar rover or Moon rover is a space exploration vehicle
+              designed to move across the surface of the Moon. The Apollo
+              Program's Lunar Roving Vehicle was driven on the Moon by members
+              of three American crews, Apollo 15, 16, and 17.
+            </p>
+            <a href="#" class="btn btn-default">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-sm-3">
+        <div class="fall-item fall-effect">
+          <img src="./images/moon.webp" />
+          <div class="mask">
+            <h2>Moon</h2>
+            <p>
+              The Moon is a rocky body that orbits planet Earth. It likely
+              formed when a very large (Mars-sized) asteroid struck Earth 4.5
+              billion years ago, very early in our planet's history.
+            </p>
+            <a href="#" class="btn btn-default">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-6 col-sm-3">
+        <div class="fall-item fall-effect">
+          <img src="./images/rocket.jpg" />
+          <div class="mask">
+            <h2>Rockets</h2>
+            <p>
+              A rocket (from Italian: rocchetto, lit'bobbin/spool') is a vehicle
+              that uses jet propulsion to accelerate without using the
+              surrounding air. A rocket engine produces thrust by reaction to
+              exhaust expelled at high speed.
+            </p>
+            <a href="#" class="btn btn-default">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Footer-->
+    <div class="d-none d-xxl-block p-0">
+      <div class="d-flex justify-content-center footer bg-black_ m-0 pt-5 pb-2">
+        <div
+          class="container row justify-content-between text-center position-relative"
+        >
+          <!--Hero-->
+          <div class="col-5 mt-3">
+            <div class="sun-move">
+              <a href="./hero.html" class="ball" target="_blank">
+                <img
+                  src="./images/Ресурс 1@2x.png"
+                  class="w-25 ball"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  title="Look at creature that can survive in space"
+                />
+              </a>
+            </div>
+
+            <div class="col-5 fw-bold h5 text-warning mt-5 text-center w-100">
+              Hero
+            </div>
+          </div>
+
+          <!--Test-->
+          <div class="col-5">
+            <div class="sun-move">
+              <a href="./quiz-index.html" class="ball" target="_blank">
+                <img
+                  src="./images/game-controller.png"
+                  class="w-25 ball"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  title="Take the test to know your kowledge about space"
+                />
+              </a>
+            </div>
+
+            <div class="col-5 fw-bold h5 text-warning mt-5 text-center w-100">
+              Test
+            </div>
+          </div>
+
+          <!-- Main Text -->
+          <div class="fw-bold text-center text-info h3 mt-3 pb-2">
+            <span class="text-white fw-normal">Created by</span>
+            Mole Hole
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Footer-SM-->
+    <div class="d-block d-xxl-none p-0">
+      <div
+        class="d-flex justify-content-center footer bg-black_ pt-5 pb-2 m-0 position-relative"
+      >
+        <div class="container row justify-content-between text-center">
+          <!--Hero-->
+          <div class="col-5 mt-3">
+            <div class="sun-move">
+              <a href="./hero.html" class="ball" target="_blank">
+                <img src="./images/Ресурс 1@2x.png" class="ball w-50" />
+              </a>
+            </div>
+
+            <div class="col-5 fw-bold h5 text-warning mt-5 text-center w-100">
+              Hero
+            </div>
+          </div>
+
+          <!--Test-->
+          <div class="col-5">
+            <div class="sun-move">
+              <a href="./quiz-index.html" target="_blank" class="ball">
+                <img src="./images/game-controller.png" class="ball w-50" />
+              </a>
+            </div>
+
+            <div class="col-5 fw-bold h5 text-warning mt-5 text-center w-100">
+              Test
+            </div>
+          </div>
+
+          <!-- Main Text -->
+          <div class="fw-bold text-center text-info h3 mt-3 pb-2">
+            <span class="text-white fw-normal">Created by</span>
+            Mole Hole
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./JS/accordin.js"></script>
     <script src="./Bootstrap/bootstrap.bundle.js"></script>
     <script src="./JS/popup.js"></script>
     <script src="./JS/hero.js"></script>

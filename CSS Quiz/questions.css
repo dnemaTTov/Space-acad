@@ -19,20 +19,13 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.adopt {
-  border-radius: 50% !important;
-  display: flex;
-  justify-content: space-around;
-  position: fixed;
-  margin-top: 1rem;
+.navbar-toggler {
+  background-color: black !important;
+  border-radius: 30%;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
   .navbar {
     display: none !important;
-  }
-  .adopt {
-    display: block !important;
-    margin-top: 10px !important;
   }
 }
 .btn {
@@ -43,7 +36,12 @@ body {
 }
 .navbar {
   background-color: #174585d2;
+  height: 11vh;
+  margin-top: 0%;
+  opacity: 80%;
+  color: white;
 }
+
 .quiz-results,
 .btn-restart {
   display: none;

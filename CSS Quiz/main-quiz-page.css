@@ -103,7 +103,7 @@
   color: #222 !important;
 }
 
-body {
+.body {
   background: url(../images/39607.jpg);
   background-repeat: no-repeat;
   background-size: cover;

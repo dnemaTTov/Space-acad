@@ -5,8 +5,10 @@
 }
 
 /* FONT */
-
 body {
+  transition: 1s;
+}
+.body {
   transition: 1s;
   font-family: "montserrat";
   background-image: url(../images/light-theme.jpg);
@@ -14,7 +16,11 @@ body {
   background-size: cover;
   position: relative;
 }
-
+@media screen and (max-width: 1200px) {
+  .navbar {
+    display: none !important;
+  }
+}
 .quiz-results,
 .btn-restart {
   display: none;
@@ -22,6 +28,8 @@ body {
 .navbar {
   background-color: rgb(166, 255, 125);
   height: 11vh;
+  margin-top: 0%;
+  opacity: 80%;
 }
 .quiz-questions-item_answers,
 .quiz-results-item_answers {

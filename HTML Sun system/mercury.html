@@ -1,78 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="../Bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="../CSS planet pages/mercury.css">
-
-    <link rel="shortcut icon" href="../images/mercury.png" type="image/x-icon">
+    <link rel="stylesheet" href="../Bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="../CSS planet pages/mercury.css" />
+    <link rel="stylesheet" href="../CSS/theme-dark.css" />
+    <link
+      rel="shortcut icon"
+      href="../images/mercury.png"
+      type="image/x-icon"
+    />
 
     <title>Mercury</title>
-</head>
+  </head>
 
-<body class="pb-5">
-
-    <div class="d-flex justify-content-center mt-5">
-        <div class="container p-5 bg-dark fw-bold mt-5 rounded-5">
-            <span class="text-info h3">Smallest planet</span> <br>
-            Mercury is the smallest planet in the solar system. It is 18 times lighter than the Earth, and its diameter
-            is barely two-fifths the size of the Earth. To better imagine the size of Mercury, let's compare it with the
-            Moon - Mercury is only a third larger than our natural satellite.
-            The already small planet has become even smaller over time. The core of the planet has cooled down, due to
-            which the radius of Mercury has decreased by about 5-10 kilometers.
-
+  <body class="pb-5">
+    <div class="d-block d-xl-none position-fixed container-fluid z-a">
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="dark rounded-4 p-4">
+          <div class="d-flex flex-column">
+            <a
+              class="shadow-lg text-warning text-decoration-none h4"
+              href="../index.html"
+              >Main page</a
+            >
+            <a class="shadow-lg text-decoration-none h5" href="../hero.html"
+              >Space-hero</a
+            >
+            <a
+              class="shadow-lg text-decoration-none h5"
+              href="../information.index.html"
+              >Information</a
+            >
+            <a
+              class="shadow-lg text-decoration-none h5"
+              href="../quiz-index.html"
+              >Test</a
+            >
+          </div>
         </div>
-    </div>
-    <div class="d-flex justify-content-center mt-5">
-        <div class="container p-5 bg-dark fw-bold mt-5 rounded-5">
-            <span class="text-info h3">Mercury is a hot planet?</span> <br>
-            The temperature on the surface of Mercury fluctuates more than on any other planet in the solar system: from
-            -173 ° C at night to 427 ° C during the day. This is due to the fact that the smallest planet has virtually
-            no atmosphere to store heat, so Mercury is rapidly losing energy stored from the Sun.
-            Although Mercury is closer to the Sun than other planets, it is not the hottest planet. In fact, the hottest
-            planet is Venus.
-            How long is one day on Mercury?
-            A solar day - the amount of time it takes for the sun to rise, set, and rise again in the same place - on
-            Mercury lasts approximately 176 Earth days. And here is another unusual fact: one year on this planet lasts
-            only 88 Earth days, that is, almost two times shorter than one Mercury day. Why is this happening?
-            The smallest planet slowly rotates around its axis - one revolution takes 59 Earth days (one sidereal day).
-            However, sunrises and sunsets on this planet are significantly different from those on Earth. Due to the
-            planet's elongated orbit, the Sun rises (and sets) twice on Mercury. Thus, the Sun takes longer to reappear
-            in the same place, and one solar day lasts twice as long as one year.
-            Despite the fact that Mercury rotates slowly around its axis, it rapidly rushes along its orbit around the
-            Sun - at a speed of 47 km / s. For comparison, the second fastest planet in the solar system, Venus, is
-            moving at a speed of 35 km/s.
+      </div>
 
+      <nav class="p-1 navbar-dark rounded-4 dark">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarToggleExternalContent"
+            aria-controls="navbarToggleExternalContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
         </div>
-    </div>
-
-    <div class="d-flex justify-content-center mt-5">
-        <div class="container p-5 bg-dark fw-bold mt-5 rounded-5">
-            <span class="text-info h3">What is Mercury made of?</span> <br>
-            Since Mercury belongs to the group of terrestrial planets, it is mainly composed of iron, nickel and
-            silicates. Most of the volume of Mercury - about 61% - is occupied by a huge iron core, about the size of
-            our moon. For comparison, the Earth's core is only 16% of its volume. The core of the planet is surrounded
-            by a mantle about 400 kilometers thick. The surface of Mercury also resembles that of the moon - it is
-            stony, hard and densely covered with craters.
-            Craters appear from collisions with asteroids or other space objects; the more craters on the planet, the
-            older it is. The presence on Mercury of such a number of craters indicates its solid age.
-            What is Mercury retrograde?
-            Mercury is called retrograde when, for observers from Earth, it begins to move in the "reverse" direction.
-            In fact, the planet does not change the direction of its movement, it's just an optical illusion. You can
-            learn more about retrograde movement in one of our previous articles.
-            The small fast planet moves in the "reverse" direction three or four times a year for three weeks. In 2022,
-            Mercury retrograde will be visible from May 10 to June 3, September 9 to October 2, and December 29 to
-            January 18, 2023.
-
-        </div>
+      </nav>
     </div>
 
+    <!-- header для моей страницы -->
+    <header>
+      <div
+        class="position position-fixed d-sm-none d-xs-none d-md-none d-lg-none d-xl-block container-fluid z-a"
+      >
+        <nav
+          class="navbar navbar-expand-lg text-white rounded-2 d-flex justify-content-center col-sm-12"
+        >
+          <div class="container d-flex justify-content-center">
+            <div class="">
+              <a class="navbar-brand text-warning_ fw-bold" href="../index.html"
+                >Main-page</a
+              >
+            </div>
+
+            <div
+              class="collapse navbar-collapse d-flex justify-content-around fw-bold"
+              id="navbarNavDropdown"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active hvr-btn"
+                    aria-current="page"
+                    href="../quiz-index.html"
+                    >Test</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active hvr-btn" href="../hero.html"
+                    >Space-hero</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active hvr-btn"
+                    href="https://www.nasa.gov/"
+                    >Official NASA site</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-warning_"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    News about world
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="../information.index.html"
+                        >Information about us</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="https://www.space.com/news"
+                        >News from space.</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjP1NX8uqj7AhXB2bIKHVsKBOAYABADGgJscg&ohost=www.google.com&cid=CAESa-D237F0_DcHaoByutd7gaaagfMp8mL7XRjnAOdUio0RXrlsNa5w9X_MwEtn-vrzLzlHpHn-CGRtGOAhEeHN7bCi8jR5R8XEnlyrozFIya3lFPJ6ffJUc6s8lUew8e0NOr6TQYlHrM9Sb--X&sig=AOD64_13E6mmxlDgzZmuNU01xFcg6ADGMg&q&adurl&ved=2ahUKEwi-is_8uqj7AhUlx4sKHdkID0oQ0Qx6BAgIEAE"
+                        >News from Earth</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+
+                <li
+                  class="rounded-circle d-flex align-items-center text-center"
+                >
+                  <a href="#" class="">
+                    <img
+                      src="../images/icons8-facebook-новый-60.png"
+                      alt=""
+                      class="w-50"
+                  /></a>
+                </li>
+
+                <li
+                  class="rounded-circle d-flex align-items-center text-center"
+                >
+                  <a href="#">
+                    <img
+                      src="../images/icons8-instagram-60.png"
+                      alt=""
+                      class="w-50"
+                  /></a>
+                </li>
+                <li
+                  class="rounded-circle d-flex align-items-center text-center"
+                >
+                  <a href="#">
+                    <img
+                      src="../images/icons8-твиттер-60.png"
+                      alt=""
+                      class="w-50"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+            <img src="../images/mole hole.png" alt="" width="150px" class="" />
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div class="bg-dark bg-opacity-50">
+      <div class="d-flex justify-content-center align-items-center mb-0 py-1">
+        <img
+          src="../images/mercury.png"
+          alt=""
+          width="150px"
+          class="sun sun-move mt-6"
+        />
+      </div>
+      <div class="d-flex justify-content-center">
+        <div class="container p-5 fw-bold">
+          <span class="text-info h3">Smallest planet</span> <br />
+          Mercury is the smallest planet in the solar system. It is 18 times
+          lighter than the Earth, and its diameter is barely two-fifths the size
+          of the Earth. To better imagine the size of Mercury, let's compare it
+          with the Moon - Mercury is only a third larger than our natural
+          satellite. The already small planet has become even smaller over time.
+          The core of the planet has cooled down, due to which the radius of
+          Mercury has decreased by about 5-10 kilometers.
+        </div>
+      </div>
+      <div class="d-flex justify-content-center">
+        <div class="container p-5 fw-bold">
+          <span class="text-info h3">Mercury is a hot planet?</span> <br />
+          The temperature on the surface of Mercury fluctuates more than on any
+          other planet in the solar system: from -173 ° C at night to 427 ° C
+          during the day. This is due to the fact that the smallest planet has
+          virtually no atmosphere to store heat, so Mercury is rapidly losing
+          energy stored from the Sun. Although Mercury is closer to the Sun than
+          other planets, it is not the hottest planet. In fact, the hottest
+          planet is Venus. How long is one day on Mercury? A solar day - the
+          amount of time it takes for the sun to rise, set, and rise again in
+          the same place - on Mercury lasts approximately 176 Earth days. And
+          here is another unusual fact: one year on this planet lasts only 88
+          Earth days, that is, almost two times shorter than one Mercury day.
+          Why is this happening? The smallest planet slowly rotates around its
+          axis - one revolution takes 59 Earth days (one sidereal day). However,
+          sunrises and sunsets on this planet are significantly different from
+          those on Earth. Due to the planet's elongated orbit, the Sun rises
+          (and sets) twice on Mercury. Thus, the Sun takes longer to reappear in
+          the same place, and one solar day lasts twice as long as one year.
+          Despite the fact that Mercury rotates slowly around its axis, it
+          rapidly rushes along its orbit around the Sun - at a speed of 47 km /
+          s. For comparison, the second fastest planet in the solar system,
+          Venus, is moving at a speed of 35 km/s.
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-center">
+        <div class="container p-5 fw-bold">
+          <span class="text-info h3">What is Mercury made of?</span> <br />
+          Since Mercury belongs to the group of terrestrial planets, it is
+          mainly composed of iron, nickel and silicates. Most of the volume of
+          Mercury - about 61% - is occupied by a huge iron core, about the size
+          of our moon. For comparison, the Earth's core is only 16% of its
+          volume. The core of the planet is surrounded by a mantle about 400
+          kilometers thick. The surface of Mercury also resembles that of the
+          moon - it is stony, hard and densely covered with craters. Craters
+          appear from collisions with asteroids or other space objects; the more
+          craters on the planet, the older it is. The presence on Mercury of
+          such a number of craters indicates its solid age. What is Mercury
+          retrograde? Mercury is called retrograde when, for observers from
+          Earth, it begins to move in the "reverse" direction. In fact, the
+          planet does not change the direction of its movement, it's just an
+          optical illusion. You can learn more about retrograde movement in one
+          of our previous articles. The small fast planet moves in the "reverse"
+          direction three or four times a year for three weeks. In 2022, Mercury
+          retrograde will be visible from May 10 to June 3, September 9 to
+          October 2, and December 29 to January 18, 2023.
+        </div>
+      </div>
+    </div>
     <script src="../JS/anchor.js"></script>
     <script src="../Bootstrap/bootstrap.bundle.js"></script>
-</body>
-
+  </body>
 </html>

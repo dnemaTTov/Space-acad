@@ -283,9 +283,11 @@ const renderQuestions = (index) => {
 
   questions.innerHTML = `
         <div class="quiz-questions-item">
-            <h1 class="${DATA[index].level} shadow_1">${DATA[index].level}</h1>
+            <h1 class="${DATA[index].level} shadow_1 m-0">${
+    DATA[index].level
+  }</h1>
 
-            <div class="quiz-questions-item_question mb-3 fs-5 mx-2 text-info">
+            <div class="quiz-questions-item_question mb-3 mt-3 fs-5 mx-2 text-info">
                 ${DATA[index].question}
             </div>
 
@@ -323,7 +325,7 @@ const renderResults = () => {
   DATA.forEach((question, index) => {
     content += `
         <div class="quiz-results-item">
-            <div class="quiz-results-item_question mb-2 fs-4 mt-5">${
+            <div class="quiz-results-item_question mb-2 fs-4">${
               question.question
             }</div>
 
